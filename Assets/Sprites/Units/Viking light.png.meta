@@ -1,0 +1,2028 @@
+fileFormatVersion: 2
+guid: 8bf4dd47eb745384db0e81231cc170ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5588895088669248135
+    second: Viking light_0
+  - first:
+      213: 5727613108403415629
+    second: Viking light_1
+  - first:
+      213: 7766049635319309042
+    second: Viking light_2
+  - first:
+      213: -4204270394213909902
+    second: Viking light_3
+  - first:
+      213: -3268842174703959937
+    second: Viking light_4
+  - first:
+      213: 2245093003607682760
+    second: Viking light_5
+  - first:
+      213: 7436851281476137317
+    second: Viking light_6
+  - first:
+      213: 3391059392733227172
+    second: Viking light_7
+  - first:
+      213: 321312586570405680
+    second: Viking light_8
+  - first:
+      213: 7356901589713915907
+    second: Viking light_9
+  - first:
+      213: -5514243220182126082
+    second: Viking light_10
+  - first:
+      213: -6968001907919924993
+    second: Viking light_11
+  - first:
+      213: 965322055899869857
+    second: Viking light_12
+  - first:
+      213: 5816224823303334678
+    second: Viking light_13
+  - first:
+      213: 5774187046126220853
+    second: Viking light_14
+  - first:
+      213: -3798205591313962924
+    second: Viking light_15
+  - first:
+      213: -8229729276602198844
+    second: Viking light_16
+  - first:
+      213: -8472612160323660866
+    second: Viking light_17
+  - first:
+      213: -4171919302786820149
+    second: Viking light_18
+  - first:
+      213: 233857591723727541
+    second: Viking light_19
+  - first:
+      213: 3929191402633989534
+    second: Viking light_20
+  - first:
+      213: -5675255636221783470
+    second: Viking light_21
+  - first:
+      213: 1368644741273006375
+    second: Viking light_22
+  - first:
+      213: -1256871432312423196
+    second: Viking light_23
+  - first:
+      213: 3605410181894987908
+    second: Viking light_24
+  - first:
+      213: -4599121569776429393
+    second: Viking light_25
+  - first:
+      213: 4241954595936310630
+    second: Viking light_26
+  - first:
+      213: -157445161301328210
+    second: Viking light_27
+  - first:
+      213: -4063112682439071147
+    second: Viking light_28
+  - first:
+      213: 1365753092800103728
+    second: Viking light_29
+  - first:
+      213: -2404646100755125364
+    second: Viking light_30
+  - first:
+      213: -6631311753747449224
+    second: Viking light_31
+  - first:
+      213: 4291914606797843689
+    second: Viking light_32
+  - first:
+      213: 7648994475020065335
+    second: Viking light_33
+  - first:
+      213: 4121519064434766921
+    second: Viking light_34
+  - first:
+      213: 1377298938877293053
+    second: Viking light_35
+  - first:
+      213: -8729661994996191753
+    second: Viking light_36
+  - first:
+      213: 9122106102119415227
+    second: Viking light_37
+  - first:
+      213: -2733837727458269661
+    second: Viking light_38
+  - first:
+      213: -3929663851427508264
+    second: Viking light_39
+  - first:
+      213: -5259109902605444661
+    second: Viking light_40
+  - first:
+      213: 8257686201346771061
+    second: Viking light_41
+  - first:
+      213: 3999263166423619708
+    second: Viking light_42
+  - first:
+      213: -5922259719366826798
+    second: Viking light_43
+  - first:
+      213: -8941249344792034208
+    second: Viking light_44
+  - first:
+      213: 8726840707101722206
+    second: Viking light_45
+  - first:
+      213: 6599270457988362624
+    second: Viking light_46
+  - first:
+      213: 1138096373731026516
+    second: Viking light_47
+  - first:
+      213: 3684793275854012109
+    second: Viking light_48
+  - first:
+      213: 5087860629999755636
+    second: Viking light_49
+  - first:
+      213: 2850012422315251584
+    second: Viking light_50
+  - first:
+      213: 4205546256396952136
+    second: Viking light_51
+  - first:
+      213: 8113505736364892738
+    second: Viking light_52
+  - first:
+      213: -1226244942159731198
+    second: Viking light_53
+  - first:
+      213: -6098101790099111942
+    second: Viking light_54
+  - first:
+      213: -295151096383437377
+    second: Viking light_55
+  - first:
+      213: 2051833304575369879
+    second: Viking light_56
+  - first:
+      213: 5457874666856996183
+    second: Viking light_57
+  - first:
+      213: 180371494799321520
+    second: Viking light_58
+  - first:
+      213: 8348102950360911982
+    second: Viking light_59
+  - first:
+      213: 1847816006017487378
+    second: Viking light_60
+  - first:
+      213: -6699800289541634839
+    second: Viking light_61
+  - first:
+      213: 5510062674710934060
+    second: Viking light_62
+  - first:
+      213: 2389276907212261962
+    second: Viking light_78
+  - first:
+      213: -980062017667790815
+    second: Viking light_79
+  - first:
+      213: 6643482551724195754
+    second: Viking light_76
+  - first:
+      213: 5797262306200062984
+    second: Viking light_77
+  - first:
+      213: -2042880332693743606
+    second: Viking light_78
+  - first:
+      213: -4577936579005297161
+    second: Viking light_79
+  - first:
+      213: 4848557274651286691
+    second: Viking light_76
+  - first:
+      213: 6998842906586339536
+    second: Viking light_77
+  - first:
+      213: 1557249540460760702
+    second: Viking light_78
+  - first:
+      213: 4358599547206344917
+    second: Viking light_79
+  - first:
+      213: 3818806442253059425
+    second: Viking light_76
+  - first:
+      213: -4444126253654451123
+    second: Viking light_75
+  - first:
+      213: -6586037589798221876
+    second: Viking light_75
+  - first:
+      213: -4876532039210044932
+    second: Viking light_78
+  - first:
+      213: 657392422647507603
+    second: Viking light_77
+  - first:
+      213: -3333418403065581887
+    second: Viking light_76
+  - first:
+      213: 315270524996632844
+    second: Viking light_79
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Viking light_0
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2830
+        width: 194
+        height: 357
+      alignment: 9
+      pivot: {x: 0.55692065, y: 0.16309619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975b1f037814072b0800000000000000
+      internalID: -5588895088669248135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_1
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 2831
+        width: 193
+        height: 357
+      alignment: 9
+      pivot: {x: 0.56241715, y: 0.15465933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4aa141a6c19c7f40800000000000000
+      internalID: 5727613108403415629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_2
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 2833
+        width: 189
+        height: 355
+      alignment: 9
+      pivot: {x: 0.56904984, y: 0.15270273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2624d3ffc86cb60800000000000000
+      internalID: 7766049635319309042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_3
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2835
+        width: 185
+        height: 353
+      alignment: 9
+      pivot: {x: 0.57549226, y: 0.14589235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a30350a5e67a5c0800000000000000
+      internalID: -4204270394213909902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_4
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 2836
+        width: 185
+        height: 354
+      alignment: 9
+      pivot: {x: 0.5660559, y: 0.143014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7084f57c5db2a2d0800000000000000
+      internalID: -3268842174703959937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_5
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 2836
+        width: 186
+        height: 354
+      alignment: 9
+      pivot: {x: 0.57039386, y: 0.143014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce20c7113c282f10800000000000000
+      internalID: 2245093003607682760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_6
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 2835
+        width: 188
+        height: 353
+      alignment: 9
+      pivot: {x: 0.56500244, y: 0.1508374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5613bcf96d0053760800000000000000
+      internalID: 7436851281476137317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_7
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 2833
+        width: 189
+        height: 355
+      alignment: 9
+      pivot: {x: 0.55542123, y: 0.14998762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8ad141d867f0f20800000000000000
+      internalID: 3391059392733227172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_8
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 2831
+        width: 191
+        height: 356
+      alignment: 9
+      pivot: {x: 0.5594105, y: 0.15447038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03714685818857400800000000000000
+      internalID: 321312586570405680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_9
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 2830
+        width: 194
+        height: 357
+      alignment: 9
+      pivot: {x: 0.5449936, y: 0.15648252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300976e6407f81660800000000000000
+      internalID: 7356901589713915907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_10
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2489
+        width: 186
+        height: 334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef130f7c1097973b0800000000000000
+      internalID: -5514243220182126082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_11
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 2493
+        width: 187
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0503cce2fac4f90800000000000000
+      internalID: -6968001907919924993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_12
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 2495
+        width: 187
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2f2cb9b43856d00800000000000000
+      internalID: 965322055899869857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_13
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 2499
+        width: 189
+        height: 324
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bedce39a167b050800000000000000
+      internalID: 5816224823303334678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_14
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 2501
+        width: 189
+        height: 322
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536f3078688022050800000000000000
+      internalID: 5774187046126220853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_15
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 2501
+        width: 189
+        height: 322
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45824d173201a4bc0800000000000000
+      internalID: -3798205591313962924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_16
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 2499
+        width: 189
+        height: 324
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c45e7e63d02acd80800000000000000
+      internalID: -8229729276602198844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_17
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 2495
+        width: 190
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3d048412c3b6a80800000000000000
+      internalID: -8472612160323660866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_18
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 2493
+        width: 188
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7dbc57f7d5a16c0800000000000000
+      internalID: -4171919302786820149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_19
+      rect:
+        serializedVersion: 2
+        x: 2989
+        y: 2489
+        width: 188
+        height: 334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba98ba9d34de3300800000000000000
+      internalID: 233857591723727541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_20
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2106
+        width: 194
+        height: 357
+      alignment: 9
+      pivot: {x: 0.5558588, y: 0.16998684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d848053ca478630800000000000000
+      internalID: 3929191402633989534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_21
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 2156
+        width: 233
+        height: 312
+      alignment: 9
+      pivot: {x: 0.4162836, y: 0.038206443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252977151117d31b0800000000000000
+      internalID: -5675255636221783470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_22
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 2156
+        width: 192
+        height: 313
+      alignment: 9
+      pivot: {x: 0.5846615, y: 0.03462195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721b84b04276ef210800000000000000
+      internalID: 1368644741273006375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_23
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 2156
+        width: 222
+        height: 315
+      alignment: 9
+      pivot: {x: 0.6415598, y: 0.03440213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec7eac6712be8ee0800000000000000
+      internalID: -1256871432312423196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_24
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 2156
+        width: 241
+        height: 312
+      alignment: 9
+      pivot: {x: 0.6663717, y: 0.034732915}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4806d69457df80230800000000000000
+      internalID: 3605410181894987908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_25
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 2136
+        width: 209
+        height: 333
+      alignment: 9
+      pivot: {x: 0.45852062, y: 0.097627655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa693aaac43ac20c0800000000000000
+      internalID: -4599121569776429393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_26
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 2116
+        width: 256
+        height: 355
+      alignment: 9
+      pivot: {x: 0.48730087, y: 0.14347078}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6659e1cea337eda30800000000000000
+      internalID: 4241954595936310630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_27
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 2114
+        width: 245
+        height: 355
+      alignment: 9
+      pivot: {x: 0.50442344, y: 0.14957637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaeb701c574a0ddf0800000000000000
+      internalID: -157445161301328210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_28
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 2100
+        width: 214
+        height: 367
+      alignment: 9
+      pivot: {x: 0.5211113, y: 0.17816278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55aa5d8ea8cec97c0800000000000000
+      internalID: -4063112682439071147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_29
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 2106
+        width: 195
+        height: 357
+      alignment: 9
+      pivot: {x: 0.56668794, y: 0.16998684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035cd3ba33124f210800000000000000
+      internalID: 1365753092800103728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_30
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1769
+        width: 191
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5318476, y: 0.13052131}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b66f99c1bf0aed0800000000000000
+      internalID: -2404646100755125364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_31
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1766
+        width: 191
+        height: 337
+      alignment: 9
+      pivot: {x: 0.54777133, y: 0.14440121}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ab20b1819d8f3a0800000000000000
+      internalID: -6631311753747449224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_32
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1759
+        width: 193
+        height: 344
+      alignment: 9
+      pivot: {x: 0.55252945, y: 0.15030403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecee786891ff8b30800000000000000
+      internalID: 4291914606797843689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_33
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1754
+        width: 193
+        height: 350
+      alignment: 9
+      pivot: {x: 0.5630351, y: 0.1477274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a1f7ce2ffa62a60800000000000000
+      internalID: 7648994475020065335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_34
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1749
+        width: 192
+        height: 357
+      alignment: 9
+      pivot: {x: 0.56864357, y: 0.16187002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94472aa90c3923930800000000000000
+      internalID: 4121519064434766921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_35
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 1749
+        width: 194
+        height: 357
+      alignment: 9
+      pivot: {x: 0.56271017, y: 0.1533504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1bd4176162d1310800000000000000
+      internalID: 1377298938877293053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_36
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 1754
+        width: 192
+        height: 350
+      alignment: 9
+      pivot: {x: 0.5686442, y: 0.14193463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd2603daa20ad680800000000000000
+      internalID: -8729661994996191753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_37
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 1759
+        width: 195
+        height: 344
+      alignment: 9
+      pivot: {x: 0.5519907, y: 0.13851538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd304c3b2b389e70800000000000000
+      internalID: 9122106102119415227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_38
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1766
+        width: 191
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5318482, y: 0.1263511}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326e94542157f0ad0800000000000000
+      internalID: -2733837727458269661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_39
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 1769
+        width: 191
+        height: 334
+      alignment: 9
+      pivot: {x: 0.54246384, y: 0.121415004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df48f02c870779c0800000000000000
+      internalID: -3929663851427508264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_40
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1420
+        width: 208
+        height: 331
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc996745863e307b0800000000000000
+      internalID: -5259109902605444661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_41
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1417
+        width: 208
+        height: 334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5784be959d1399270800000000000000
+      internalID: 8257686201346771061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_42
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1405
+        width: 204
+        height: 344
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78dbfd29ac308730800000000000000
+      internalID: 3999263166423619708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_43
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 1394
+        width: 201
+        height: 353
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d42987a928efcda0800000000000000
+      internalID: -5922259719366826798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_44
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 1387
+        width: 198
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0640a7bf71d4ae380800000000000000
+      internalID: -8941249344792034208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_45
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1387
+        width: 197
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e568736e267fb1970800000000000000
+      internalID: 8726840707101722206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_46
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 1394
+        width: 201
+        height: 353
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08130216481559b50800000000000000
+      internalID: 6599270457988362624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_47
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 1405
+        width: 206
+        height: 344
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456e56c3f945bcf00800000000000000
+      internalID: 1138096373731026516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_48
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 1417
+        width: 208
+        height: 334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dceb60626f3032330800000000000000
+      internalID: 3684793275854012109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_49
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 1416
+        width: 210
+        height: 331
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471a4dd4946bb9640800000000000000
+      internalID: 5087860629999755636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_50
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 934
+        width: 191
+        height: 350
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0871d85b2374d8720800000000000000
+      internalID: 2850012422315251584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_51
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 936
+        width: 202
+        height: 348
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842a30bc90a1d5a30800000000000000
+      internalID: 4205546256396952136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_52
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 937
+        width: 221
+        height: 350
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242af13ea76f89070800000000000000
+      internalID: 8113505736364892738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_53
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 939
+        width: 229
+        height: 348
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20623f6d8b08bfee0800000000000000
+      internalID: -1226244942159731198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_54
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 966
+        width: 214
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afff7f42bb03f5ba0800000000000000
+      internalID: -6098101790099111942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_55
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 1019
+        width: 181
+        height: 345
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb58ff044a967ebf0800000000000000
+      internalID: -295151096383437377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_56
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 1047
+        width: 182
+        height: 348
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792e789f483997c10800000000000000
+      internalID: 2051833304575369879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_57
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 1017
+        width: 177
+        height: 350
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d5d9aa7144ebb40800000000000000
+      internalID: 5457874666856996183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_58
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 962
+        width: 182
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9ae1b3beec08200800000000000000
+      internalID: 180371494799321520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_59
+      rect:
+        serializedVersion: 2
+        x: 3002
+        y: 934
+        width: 191
+        height: 350
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6017a8376b6ad370800000000000000
+      internalID: 8348102950360911982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_60
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 584
+        width: 186
+        height: 351
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21214f80ed2c4a910800000000000000
+      internalID: 1847816006017487378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_61
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 592
+        width: 183
+        height: 344
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4cfcb32278503a0800000000000000
+      internalID: -6699800289541634839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_62
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 612
+        width: 184
+        height: 325
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22b8402fcca77c40800000000000000
+      internalID: 5510062674710934060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_67
+      rect:
+        serializedVersion: 2
+        x: 2455
+        y: 612
+        width: 184
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a4e6c20ba682120800000000000000
+      internalID: 2389276907212261962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_68
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 592
+        width: 181
+        height: 345
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1280f0b99ce1662f0800000000000000
+      internalID: -980062017667790815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_69
+      rect:
+        serializedVersion: 2
+        x: 3033
+        y: 584
+        width: 187
+        height: 351
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafb60f9e24623c50800000000000000
+      internalID: 6643482551724195754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_70
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 258
+        width: 203
+        height: 307
+      alignment: 9
+      pivot: {x: 0.39467195, y: 0.028491886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c01de2a53047050800000000000000
+      internalID: 5797262306200062984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_71
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 257
+        width: 211
+        height: 313
+      alignment: 9
+      pivot: {x: 0.5000003, y: 0.04036608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08582b392b36a3e0800000000000000
+      internalID: -2042880332693743606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_72
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 255
+        width: 204
+        height: 319
+      alignment: 9
+      pivot: {x: 0.65245414, y: 0.042653818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd4f14bfe6e770c0800000000000000
+      internalID: -4577936579005297161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_73
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 255
+        width: 214
+        height: 318
+      alignment: 9
+      pivot: {x: 0.72253644, y: 0.039731678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acd9bc0729894340800000000000000
+      internalID: 4848557274651286691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_77
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 295
+        width: 307
+        height: 259
+      alignment: 9
+      pivot: {x: 0.9147178, y: 0.123831965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d857d5ca82e02160800000000000000
+      internalID: 6998842906586339536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_78
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 245
+        width: 360
+        height: 209
+      alignment: 9
+      pivot: {x: 0.83746403, y: 0.41386816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ecdc5d4367c9510800000000000000
+      internalID: 1557249540460760702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_79
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 243
+        width: 382
+        height: 181
+      alignment: 9
+      pivot: {x: 0.81802833, y: 0.61750144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0a961023bdc7c30800000000000000
+      internalID: 4358599547206344917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_76
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 264
+        width: 248
+        height: 294
+      alignment: 9
+      pivot: {x: 0.89189297, y: 0.05372277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1658770f9302ff430800000000000000
+      internalID: 3818806442253059425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_75
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 259
+        width: 231
+        height: 305
+      alignment: 9
+      pivot: {x: 0.8323795, y: 0.041138995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c50f1e7ba4352c0800000000000000
+      internalID: -4444126253654451123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_74
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 255
+        width: 224
+        height: 313
+      alignment: 9
+      pivot: {x: 0.7603291, y: 0.04665689}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc705b6d4b1b994a0800000000000000
+      internalID: -6586037589798221876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_63
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 628
+        width: 212
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1f21382f3135cb0800000000000000
+      internalID: -4876532039210044932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_66
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 627
+        width: 211
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a20f5ece68f1900800000000000000
+      internalID: 657392422647507603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_65
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 627
+        width: 225
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cea685af915db1d0800000000000000
+      internalID: -3333418403065581887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking light_64
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 627
+        width: 226
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0143924fd0106400800000000000000
+      internalID: 315270524996632844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

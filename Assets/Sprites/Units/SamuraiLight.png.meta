@@ -1,0 +1,1788 @@
+fileFormatVersion: 2
+guid: edff4705e9071d84daa86de6878a43c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6603425759705114029
+    second: SamuraiLight_0
+  - first:
+      213: -1626649101273714765
+    second: SamuraiLight_1
+  - first:
+      213: -2267727663179229540
+    second: SamuraiLight_2
+  - first:
+      213: -6659290640694412245
+    second: SamuraiLight_3
+  - first:
+      213: -1403894272627541883
+    second: SamuraiLight_7
+  - first:
+      213: 206789404390341869
+    second: SamuraiLight_8
+  - first:
+      213: -2150835474893369043
+    second: SamuraiLight_9
+  - first:
+      213: -93021104792467748
+    second: SamuraiLight_17
+  - first:
+      213: -6315911470012835119
+    second: SamuraiLight_18
+  - first:
+      213: -1694286305442617415
+    second: SamuraiLight_19
+  - first:
+      213: 4212997941712559352
+    second: SamuraiLight_17
+  - first:
+      213: 6345595388432950385
+    second: SamuraiLight_18
+  - first:
+      213: 6127140774728001703
+    second: SamuraiLight_19
+  - first:
+      213: 7641046367602124731
+    second: SamuraiLight_20
+  - first:
+      213: -935544477177243464
+    second: SamuraiLight_21
+  - first:
+      213: -4318282721921016211
+    second: SamuraiLight_22
+  - first:
+      213: 208275533649604952
+    second: SamuraiLight_27
+  - first:
+      213: -4235994733764921110
+    second: SamuraiLight_28
+  - first:
+      213: -4254084563263926494
+    second: SamuraiLight_29
+  - first:
+      213: 556109546749278963
+    second: SamuraiLight_30
+  - first:
+      213: -1482732183342715789
+    second: SamuraiLight_31
+  - first:
+      213: 8121196754429816929
+    second: SamuraiLight_32
+  - first:
+      213: -1917435371073757173
+    second: SamuraiLight_36
+  - first:
+      213: 3481840676014370041
+    second: SamuraiLight_37
+  - first:
+      213: 5346751935788833565
+    second: SamuraiLight_38
+  - first:
+      213: 6785216154169108799
+    second: SamuraiLight_39
+  - first:
+      213: 4257570141915378294
+    second: SamuraiLight_64
+  - first:
+      213: -2761766893088257743
+    second: SamuraiLight_65
+  - first:
+      213: -6299264361276750326
+    second: SamuraiLight_66
+  - first:
+      213: 6259028271751196159
+    second: SamuraiLight_67
+  - first:
+      213: 4154779854799368066
+    second: SamuraiLight_68
+  - first:
+      213: -8177779038822787078
+    second: SamuraiLight_69
+  - first:
+      213: 193260917554498397
+    second: SamuraiLight_46
+  - first:
+      213: 3779354925636719250
+    second: SamuraiLight_47
+  - first:
+      213: -4058866991593962045
+    second: SamuraiLight_48
+  - first:
+      213: 7651016001778072169
+    second: SamuraiLight_49
+  - first:
+      213: 4122098217857789794
+    second: SamuraiLight_60
+  - first:
+      213: 8438092301392503118
+    second: SamuraiLight_61
+  - first:
+      213: -4670151424539520100
+    second: SamuraiLight_62
+  - first:
+      213: 3646407370317286801
+    second: SamuraiLight_63
+  - first:
+      213: 3929103525285223845
+    second: SamuraiLight_64
+  - first:
+      213: -5019337608523194007
+    second: SamuraiLight_65
+  - first:
+      213: -965360436735036220
+    second: SamuraiLight_66
+  - first:
+      213: -5724186490358149851
+    second: SamuraiLight_67
+  - first:
+      213: -2793867737284189797
+    second: SamuraiLight_68
+  - first:
+      213: -6715101874594028962
+    second: SamuraiLight_69
+  - first:
+      213: 3628567604071515360
+    second: SamuraiLight_70
+  - first:
+      213: -7439860240284294437
+    second: SamuraiLight_71
+  - first:
+      213: -1185965457813643449
+    second: SamuraiLight_72
+  - first:
+      213: 2735029353725430195
+    second: SamuraiLight_73
+  - first:
+      213: 2762950785934838845
+    second: SamuraiLight_74
+  - first:
+      213: 5494617687699132207
+    second: SamuraiLight_75
+  - first:
+      213: -2806873487321620553
+    second: SamuraiLight_76
+  - first:
+      213: 6939000803737976405
+    second: SamuraiLight_77
+  - first:
+      213: -3538214701650405234
+    second: SamuraiLight_78
+  - first:
+      213: 5090077446458085269
+    second: SamuraiLight_79
+  - first:
+      213: -8410933032803361058
+    second: SamuraiLight_35
+  - first:
+      213: -4334642441844459324
+    second: SamuraiLight_34
+  - first:
+      213: 3695409343594122935
+    second: SamuraiLight_33
+  - first:
+      213: -1562090857235592204
+    second: SamuraiLight_26
+  - first:
+      213: 6128015997234300022
+    second: SamuraiLight_25
+  - first:
+      213: -2527527939513892099
+    second: SamuraiLight_24
+  - first:
+      213: 5732926484448477790
+    second: SamuraiLight_23
+  - first:
+      213: 1905211566646833084
+    second: SamuraiLight_16
+  - first:
+      213: -3509224510361211355
+    second: SamuraiLight_15
+  - first:
+      213: -2055451631988696860
+    second: SamuraiLight_14
+  - first:
+      213: -3755934455749403532
+    second: SamuraiLight_13
+  - first:
+      213: 4261749248238286501
+    second: SamuraiLight_9
+  - first:
+      213: 6094129167017013460
+    second: SamuraiLight_8
+  - first:
+      213: 2478024752147152514
+    second: SamuraiLight_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SamuraiLight_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1797
+        width: 169
+        height: 263
+      alignment: 9
+      pivot: {x: 0.56747997, y: 0.029811148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35adc1c024beb54a0800000000000000
+      internalID: -6603425759705114029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1798
+        width: 171
+        height: 260
+      alignment: 9
+      pivot: {x: 0.5625225, y: 0.024672288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf2f50c24bfc69e0800000000000000
+      internalID: -1626649101273714765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_2
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1798
+        width: 176
+        height: 259
+      alignment: 9
+      pivot: {x: 0.56074625, y: 0.022015546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9610ec84b96780e0800000000000000
+      internalID: -2267727663179229540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_3
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1798
+        width: 179
+        height: 258
+      alignment: 9
+      pivot: {x: 0.5558724, y: 0.022150557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c7359d1727593a0800000000000000
+      internalID: -6659290640694412245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_7
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1798
+        width: 176
+        height: 259
+      alignment: 9
+      pivot: {x: 0.5646425, y: 0.0219637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58874d1e89d548ce0800000000000000
+      internalID: -1403894272627541883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_8
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 1798
+        width: 171
+        height: 260
+      alignment: 9
+      pivot: {x: 0.563206, y: 0.026254976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec30002ed9aed200800000000000000
+      internalID: 206789404390341869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_9
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 1797
+        width: 169
+        height: 263
+      alignment: 9
+      pivot: {x: 0.5704497, y: 0.027554937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d211cacf782b622e0800000000000000
+      internalID: -2150835474893369043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1498
+        width: 185
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd60b3c4cc585bef0800000000000000
+      internalID: -93021104792467748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1498
+        width: 187
+        height: 263
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dad11d2bff5958a0800000000000000
+      internalID: -6315911470012835119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_12
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1498
+        width: 188
+        height: 263
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7a848f49fac78e0800000000000000
+      internalID: -1694286305442617415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_17
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1497
+        width: 186
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc9a3b7e43977a30800000000000000
+      internalID: 4212997941712559352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_18
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1498
+        width: 187
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17427e7a265101850800000000000000
+      internalID: 6345595388432950385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_19
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 1498
+        width: 187
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a86976521af70550800000000000000
+      internalID: 6127140774728001703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1217
+        width: 169
+        height: 262
+      alignment: 9
+      pivot: {x: 0.5725058, y: 0.028863572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7a635ff237a0a60800000000000000
+      internalID: 7641046367602124731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_21
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1218
+        width: 193
+        height: 257
+      alignment: 9
+      pivot: {x: 0.56546116, y: 0.023564795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8954631474403f0800000000000000
+      internalID: -935544477177243464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_22
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1218
+        width: 189
+        height: 252
+      alignment: 9
+      pivot: {x: 0.6613156, y: 0.025646392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ed0306eb06214c0800000000000000
+      internalID: -4318282721921016211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_27
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1182
+        width: 166
+        height: 309
+      alignment: 9
+      pivot: {x: 0.47971278, y: 0.13687006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851f69e8e71f3e200800000000000000
+      internalID: 208275533649604952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_28
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1198
+        width: 159
+        height: 287
+      alignment: 9
+      pivot: {x: 0.52117956, y: 0.09103936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8348f9b39b635c0800000000000000
+      internalID: -4235994733764921110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_29
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 1217
+        width: 169
+        height: 262
+      alignment: 9
+      pivot: {x: 0.57091343, y: 0.027746769}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f4e2af0a476f4c0800000000000000
+      internalID: -4254084563263926494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_30
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 910
+        width: 183
+        height: 264
+      alignment: 9
+      pivot: {x: 0.5111285, y: 0.028928814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fab136bfa2b7b700800000000000000
+      internalID: 556109546749278963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_31
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 912
+        width: 182
+        height: 263
+      alignment: 9
+      pivot: {x: 0.5195822, y: 0.023231188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c61d26fe64c6be0800000000000000
+      internalID: -1482732183342715789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_32
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 912
+        width: 179
+        height: 263
+      alignment: 9
+      pivot: {x: 0.5235541, y: 0.02885617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16038d29b6944b070800000000000000
+      internalID: 8121196754429816929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_36
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 912
+        width: 174
+        height: 262
+      alignment: 9
+      pivot: {x: 0.5570089, y: 0.034306843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00216360b6e365e0800000000000000
+      internalID: -1917435371073757173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_37
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 912
+        width: 179
+        height: 263
+      alignment: 9
+      pivot: {x: 0.52528834, y: 0.021514313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fca752b5abf15030800000000000000
+      internalID: 3481840676014370041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_38
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 912
+        width: 182
+        height: 263
+      alignment: 9
+      pivot: {x: 0.5248708, y: 0.02796849}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b53daae8a733a40800000000000000
+      internalID: 5346751935788833565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_39
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 911
+        width: 183
+        height: 264
+      alignment: 9
+      pivot: {x: 0.50309247, y: 0.025719382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39ed71842ee92e50800000000000000
+      internalID: 6785216154169108799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_40
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 633
+        width: 171
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672fc2b8c7de51b30800000000000000
+      internalID: 4257570141915378294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_41
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 632
+        width: 171
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1394a09a4ab3ca9d0800000000000000
+      internalID: -2761766893088257743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_42
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 632
+        width: 169
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0642d730748498a0800000000000000
+      internalID: -6299264361276750326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_43
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 633
+        width: 165
+        height: 265
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd6bd82d098cd650800000000000000
+      internalID: 6259028271751196159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_44
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 628
+        width: 162
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fe345d34eb8a930800000000000000
+      internalID: 4154779854799368066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_45
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 628
+        width: 162
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7155bba41b28e80800000000000000
+      internalID: -8177779038822787078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_46
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 632
+        width: 166
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b4dc3d7c99ea200800000000000000
+      internalID: 193260917554498397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_47
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 632
+        width: 169
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29213bee747f27430800000000000000
+      internalID: 3779354925636719250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_48
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 632
+        width: 172
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5cb77d9f10ca7c0800000000000000
+      internalID: -4058866991593962045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_49
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 633
+        width: 170
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96abfcc448edd2a60800000000000000
+      internalID: 7651016001778072169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_60
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 372
+        width: 182
+        height: 259
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f2fa44d72a43930800000000000000
+      internalID: 4122098217857789794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_61
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 372
+        width: 190
+        height: 259
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41657ebd302a1570800000000000000
+      internalID: 8438092301392503118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_62
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 371
+        width: 203
+        height: 259
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93990dd50a403fb0800000000000000
+      internalID: -4670151424539520100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_63
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 371
+        width: 210
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dc02e0f24aa9230800000000000000
+      internalID: 3646407370317286801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_64
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 370
+        width: 208
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad5c56c6daf68630800000000000000
+      internalID: 3929103525285223845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_65
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 370
+        width: 208
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9616734e90bb75ab0800000000000000
+      internalID: -5019337608523194007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_66
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 371
+        width: 209
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c431382cc95a92f0800000000000000
+      internalID: -965360436735036220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_67
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 371
+        width: 202
+        height: 259
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dcc1e07ba9f80b0800000000000000
+      internalID: -5724186490358149851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_68
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 372
+        width: 190
+        height: 259
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9160c178103a39d0800000000000000
+      internalID: -2793867737284189797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_69
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 372
+        width: 182
+        height: 259
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5263465c6a2fc2a0800000000000000
+      internalID: -6715101874594028962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_70
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 101
+        width: 194
+        height: 262
+      alignment: 9
+      pivot: {x: 0.49755695, y: 0.034369957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e44c2cc2034b5230800000000000000
+      internalID: 3628567604071515360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_71
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 100
+        width: 172
+        height: 258
+      alignment: 9
+      pivot: {x: 0.6855925, y: 0.028668515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd26d4f878e40c890800000000000000
+      internalID: -7439860240284294437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_72
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 99
+        width: 192
+        height: 252
+      alignment: 9
+      pivot: {x: 0.7330506, y: 0.037044495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f522b13ba9a8fe0800000000000000
+      internalID: -1185965457813643449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_73
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 99
+        width: 200
+        height: 248
+      alignment: 9
+      pivot: {x: 0.7798505, y: 0.03884783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b90217d4b6c4f520800000000000000
+      internalID: 2735029353725430195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_74
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 99
+        width: 206
+        height: 245
+      alignment: 9
+      pivot: {x: 0.83570254, y: 0.043944906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c488fd919f75620800000000000000
+      internalID: 2762950785934838845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_75
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 101
+        width: 217
+        height: 234
+      alignment: 9
+      pivot: {x: 0.8702477, y: 0.048223153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f82ebdcadc04c40800000000000000
+      internalID: 5494617687699132207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_76
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 106
+        width: 240
+        height: 216
+      alignment: 9
+      pivot: {x: 0.8915474, y: 0.045037445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf9bba4f6bfb09d0800000000000000
+      internalID: -2806873487321620553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_77
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 101
+        width: 275
+        height: 181
+      alignment: 9
+      pivot: {x: 0.9392793, y: 0.10236696}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55eb3f277784c4060800000000000000
+      internalID: 6939000803737976405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_78
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 62
+        width: 275
+        height: 158
+      alignment: 9
+      pivot: {x: 0.9548193, y: 0.39873958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e881011a97cb5eec0800000000000000
+      internalID: -3538214701650405234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_79
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 81
+        width: 282
+        height: 169
+      alignment: 9
+      pivot: {x: 0.8805806, y: 0.62202436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f8c5b187693a640800000000000000
+      internalID: 5090077446458085269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_35
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 914
+        width: 169
+        height: 261
+      alignment: 9
+      pivot: {x: 0.5840761, y: 0.029474836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede182e38fc564b80800000000000000
+      internalID: -8410933032803361058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_34
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 913
+        width: 169
+        height: 261
+      alignment: 9
+      pivot: {x: 0.5909092, y: 0.0326503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c877814aa148d3c0800000000000000
+      internalID: -4334642441844459324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_33
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 913
+        width: 172
+        height: 261
+      alignment: 9
+      pivot: {x: 0.55954903, y: 0.034433883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be4698083bb84330800000000000000
+      internalID: 3695409343594122935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_26
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1186
+        width: 170
+        height: 307
+      alignment: 9
+      pivot: {x: 0.46971506, y: 0.12460556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb469344a6525ae0800000000000000
+      internalID: -1562090857235592204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_25
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1216
+        width: 174
+        height: 275
+      alignment: 9
+      pivot: {x: 0.42691004, y: 0.031040039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674cf05f4161b0550800000000000000
+      internalID: 6128015997234300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_24
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1218
+        width: 212
+        height: 255
+      alignment: 9
+      pivot: {x: 0.6967687, y: 0.025247492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2466dfaba6cecd0800000000000000
+      internalID: -2527527939513892099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_23
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1217
+        width: 206
+        height: 250
+      alignment: 9
+      pivot: {x: 0.69584465, y: 0.027995605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e520bf463427f8f40800000000000000
+      internalID: 5732926484448477790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_16
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1496
+        width: 187
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf23fb53dba07a10800000000000000
+      internalID: 1905211566646833084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_15
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1498
+        width: 187
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e63d686eabc4fc0800000000000000
+      internalID: -3509224510361211355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_14
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1498
+        width: 186
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8115681a19973e0800000000000000
+      internalID: -2055451631988696860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_13
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1497
+        width: 187
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c1865238d30ebc0800000000000000
+      internalID: -3755934455749403532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_6
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1797
+        width: 178
+        height: 261
+      alignment: 9
+      pivot: {x: 0.5561503, y: 0.028850688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6f70f8c56c42b30800000000000000
+      internalID: 4261749248238286501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_5
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1797
+        width: 183
+        height: 261
+      alignment: 9
+      pivot: {x: 0.5552298, y: 0.031002117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d075677032b29450800000000000000
+      internalID: 6094129167017013460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuraiLight_4
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1797
+        width: 183
+        height: 260
+      alignment: 9
+      pivot: {x: 0.5490936, y: 0.031357985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e3b580266b36220800000000000000
+      internalID: 2478024752147152514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

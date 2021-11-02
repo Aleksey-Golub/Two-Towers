@@ -1,0 +1,2028 @@
+fileFormatVersion: 2
+guid: d5b147d943d944f48a057f29966db000
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3832104393805366360
+    second: Viking shield_0
+  - first:
+      213: -841889543153160384
+    second: Viking shield_1
+  - first:
+      213: 6804894477576501331
+    second: Viking shield_2
+  - first:
+      213: -4697502276912110501
+    second: Viking shield_3
+  - first:
+      213: -6738043732638814305
+    second: Viking shield_4
+  - first:
+      213: -2742961333207260608
+    second: Viking shield_5
+  - first:
+      213: 7185368090492361589
+    second: Viking shield_6
+  - first:
+      213: 6807910730309841167
+    second: Viking shield_7
+  - first:
+      213: 7837004349739057320
+    second: Viking shield_8
+  - first:
+      213: -3057019176455490408
+    second: Viking shield_9
+  - first:
+      213: -5468580325774153109
+    second: Viking shield_10
+  - first:
+      213: 1040923131485498499
+    second: Viking shield_11
+  - first:
+      213: -3025047631686727906
+    second: Viking shield_12
+  - first:
+      213: 786588905459563227
+    second: Viking shield_13
+  - first:
+      213: 1569250843767834571
+    second: Viking shield_14
+  - first:
+      213: -7729617953273008479
+    second: Viking shield_15
+  - first:
+      213: 8841398558318033530
+    second: Viking shield_16
+  - first:
+      213: 500113489713803820
+    second: Viking shield_17
+  - first:
+      213: -1546234227779403472
+    second: Viking shield_18
+  - first:
+      213: 1339955395244621432
+    second: Viking shield_19
+  - first:
+      213: 6419455095028755195
+    second: Viking shield_20
+  - first:
+      213: -6772438164925547135
+    second: Viking shield_21
+  - first:
+      213: 8517841433619035659
+    second: Viking shield_22
+  - first:
+      213: -765127737957252446
+    second: Viking shield_23
+  - first:
+      213: 5857751573446399801
+    second: Viking shield_24
+  - first:
+      213: 2931782615459839206
+    second: Viking shield_25
+  - first:
+      213: -6274357354902969508
+    second: Viking shield_26
+  - first:
+      213: 5413033615715920636
+    second: Viking shield_27
+  - first:
+      213: 712296648076198599
+    second: Viking shield_28
+  - first:
+      213: -4620334246934546015
+    second: Viking shield_29
+  - first:
+      213: 2632373468542862414
+    second: Viking shield_30
+  - first:
+      213: 4890105966525719456
+    second: Viking shield_31
+  - first:
+      213: 759324395542869906
+    second: Viking shield_32
+  - first:
+      213: -4357051287251098258
+    second: Viking shield_33
+  - first:
+      213: -1620913194285120422
+    second: Viking shield_34
+  - first:
+      213: 7211116706603731287
+    second: Viking shield_35
+  - first:
+      213: 2384502502750052595
+    second: Viking shield_36
+  - first:
+      213: -7651660858278956126
+    second: Viking shield_37
+  - first:
+      213: 7412709408014582118
+    second: Viking shield_38
+  - first:
+      213: 7727225285996420352
+    second: Viking shield_39
+  - first:
+      213: 4792727547264530912
+    second: Viking shield_40
+  - first:
+      213: 4040002633590194957
+    second: Viking shield_41
+  - first:
+      213: 9120047319702866302
+    second: Viking shield_42
+  - first:
+      213: 4958919859762480147
+    second: Viking shield_43
+  - first:
+      213: 1436856535018615979
+    second: Viking shield_44
+  - first:
+      213: 2202994878122620020
+    second: Viking shield_45
+  - first:
+      213: -5002460597005113096
+    second: Viking shield_46
+  - first:
+      213: -6146701424361493638
+    second: Viking shield_47
+  - first:
+      213: -6931697560353519889
+    second: Viking shield_48
+  - first:
+      213: -7523724468640705245
+    second: Viking shield_49
+  - first:
+      213: -4089157844320996797
+    second: Viking shield_50
+  - first:
+      213: 4395351133082238127
+    second: Viking shield_51
+  - first:
+      213: -2581175262051172876
+    second: Viking shield_52
+  - first:
+      213: 7311143221693198958
+    second: Viking shield_53
+  - first:
+      213: 4305637199540551097
+    second: Viking shield_54
+  - first:
+      213: -6250600433694356096
+    second: Viking shield_55
+  - first:
+      213: -5480781818999548800
+    second: Viking shield_56
+  - first:
+      213: -382956136370416543
+    second: Viking shield_57
+  - first:
+      213: 3751393537229938442
+    second: Viking shield_58
+  - first:
+      213: -5338139193119107761
+    second: Viking shield_59
+  - first:
+      213: 6612683976884229908
+    second: Viking shield_60
+  - first:
+      213: -5897162925699931889
+    second: Viking shield_61
+  - first:
+      213: 3661902664592991803
+    second: Viking shield_62
+  - first:
+      213: 2776541907253734024
+    second: Viking shield_63
+  - first:
+      213: 2884130966350614788
+    second: Viking shield_64
+  - first:
+      213: 1709572003525354625
+    second: Viking shield_65
+  - first:
+      213: 7262678736488937233
+    second: Viking shield_66
+  - first:
+      213: 7990958507816642920
+    second: Viking shield_67
+  - first:
+      213: -8462507873227066545
+    second: Viking shield_68
+  - first:
+      213: -3579180129570658784
+    second: Viking shield_69
+  - first:
+      213: -5098960654920831730
+    second: Viking shield_70
+  - first:
+      213: 2248251677877205911
+    second: Viking shield_71
+  - first:
+      213: -6884816603355847893
+    second: Viking shield_72
+  - first:
+      213: 2755144762992374739
+    second: Viking shield_73
+  - first:
+      213: -5977839067500965248
+    second: Viking shield_74
+  - first:
+      213: 6786927716112928979
+    second: Viking shield_75
+  - first:
+      213: 3289172650052467976
+    second: Viking shield_76
+  - first:
+      213: -8502070920286112022
+    second: Viking shield_77
+  - first:
+      213: -7704871495069822581
+    second: Viking shield_78
+  - first:
+      213: -6478979222876110481
+    second: Viking shield_79
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Viking shield_0
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2958
+        width: 190
+        height: 347
+      alignment: 9
+      pivot: {x: 0.47521523, y: 0.039016064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab74017b51a1dac0800000000000000
+      internalID: -3832104393805366360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_1
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 2959
+        width: 189
+        height: 344
+      alignment: 9
+      pivot: {x: 0.48141882, y: 0.036223654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f6d38cbe10154f0800000000000000
+      internalID: -841889543153160384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_2
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 2963
+        width: 188
+        height: 340
+      alignment: 9
+      pivot: {x: 0.47086155, y: 0.022153607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358f6f53977df6e50800000000000000
+      internalID: 6804894477576501331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_3
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 2963
+        width: 186
+        height: 340
+      alignment: 9
+      pivot: {x: 0.47054824, y: 0.022153607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54a01d419e1fceb0800000000000000
+      internalID: -4697502276912110501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_4
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 2963
+        width: 186
+        height: 340
+      alignment: 9
+      pivot: {x: 0.4742294, y: 0.022153607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f2403cce8ad72a0800000000000000
+      internalID: -6738043732638814305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_5
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 2963
+        width: 184
+        height: 340
+      alignment: 9
+      pivot: {x: 0.4702281, y: 0.024167767}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042ac85433b0fe9d0800000000000000
+      internalID: -2742961333207260608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_6
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 2963
+        width: 186
+        height: 340
+      alignment: 9
+      pivot: {x: 0.47054824, y: 0.020140165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b5936653e87b360800000000000000
+      internalID: 7185368090492361589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_7
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 2963
+        width: 187
+        height: 340
+      alignment: 9
+      pivot: {x: 0.47436786, y: 0.022153607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0130b64dbe8a7e50800000000000000
+      internalID: 6807910730309841167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_8
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 2959
+        width: 190
+        height: 344
+      alignment: 9
+      pivot: {x: 0.47837555, y: 0.033839736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a043611fe1a2cc60800000000000000
+      internalID: 7837004349739057320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_9
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 2958
+        width: 189
+        height: 347
+      alignment: 9
+      pivot: {x: 0.4746391, y: 0.033547174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89430db71494395d0800000000000000
+      internalID: -3057019176455490408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_10
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2566
+        width: 186
+        height: 340
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6aaa80ea23bb14b0800000000000000
+      internalID: -5468580325774153109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_11
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 2566
+        width: 182
+        height: 342
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c2ea2b21a127e00800000000000000
+      internalID: 1040923131485498499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_12
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 2566
+        width: 181
+        height: 342
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e170da4d43fd406d0800000000000000
+      internalID: -3025047631686727906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_13
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 2566
+        width: 185
+        height: 343
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda3e2621768aea00800000000000000
+      internalID: 786588905459563227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_14
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 2566
+        width: 184
+        height: 343
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc78342045917c510800000000000000
+      internalID: 1569250843767834571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2566
+        width: 185
+        height: 343
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae2eadbc61eab490800000000000000
+      internalID: -7729617953273008479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_16
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 2566
+        width: 185
+        height: 343
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a72322525f2ba70800000000000000
+      internalID: 8841398558318033530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_17
+      rect:
+        serializedVersion: 2
+        x: 2398
+        y: 2566
+        width: 183
+        height: 342
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22b5c5b192c0f600800000000000000
+      internalID: 500113489713803820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_18
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 2566
+        width: 183
+        height: 342
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03188a1892caa8ae0800000000000000
+      internalID: -1546234227779403472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_19
+      rect:
+        serializedVersion: 2
+        x: 2986
+        y: 2566
+        width: 184
+        height: 340
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e7c64255a789210800000000000000
+      internalID: 1339955395244621432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_20
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2189
+        width: 196
+        height: 345
+      alignment: 9
+      pivot: {x: 0.46988475, y: 0.026885191}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfaa2cea56c761950800000000000000
+      internalID: 6419455095028755195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_21
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 2194
+        width: 196
+        height: 335
+      alignment: 9
+      pivot: {x: 0.456978, y: 0.015102467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d7054fe577302a0800000000000000
+      internalID: -6772438164925547135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_22
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 2194
+        width: 212
+        height: 329
+      alignment: 9
+      pivot: {x: 0.4999997, y: 0.015377891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0677f787a3753670800000000000000
+      internalID: 8517841433619035659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_23
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 2194
+        width: 276
+        height: 325
+      alignment: 9
+      pivot: {x: 0.6130406, y: 0.015567157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2824b4068b165f0800000000000000
+      internalID: -765127737957252446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_24
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 2194
+        width: 274
+        height: 334
+      alignment: 9
+      pivot: {x: 0.60771054, y: 0.015147683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93712c5350aea4150800000000000000
+      internalID: 5857751573446399801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_25
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2194
+        width: 203
+        height: 345
+      alignment: 9
+      pivot: {x: 0.37953886, y: 0.014664713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec362961c8cfa820800000000000000
+      internalID: 2931782615459839206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_26
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 2154
+        width: 242
+        height: 384
+      alignment: 9
+      pivot: {x: 0.41637376, y: 0.11857859}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53262b8a310de8a0800000000000000
+      internalID: -6274357354902969508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_27
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 2154
+        width: 233
+        height: 385
+      alignment: 9
+      pivot: {x: 0.43123826, y: 0.118269965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaeefdd465fe1b40800000000000000
+      internalID: 5413033615715920636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_28
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 2164
+        width: 214
+        height: 374
+      alignment: 9
+      pivot: {x: 0.46059638, y: 0.09469327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2884b070692e900800000000000000
+      internalID: 712296648076198599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_29
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 2189
+        width: 194
+        height: 345
+      alignment: 9
+      pivot: {x: 0.46088088, y: 0.029329427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9f4e36b7641efb0800000000000000
+      internalID: -4620334246934546015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_30
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1805
+        width: 181
+        height: 342
+      alignment: 9
+      pivot: {x: 0.46592367, y: 0.020610252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4409a409b1188420800000000000000
+      internalID: 2632373468542862414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_31
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1805
+        width: 180
+        height: 342
+      alignment: 9
+      pivot: {x: 0.45594415, y: 0.023186577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3a8c8b7752dd340800000000000000
+      internalID: 4890105966525719456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_32
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1807
+        width: 184
+        height: 340
+      alignment: 9
+      pivot: {x: 0.4712677, y: 0.015548526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297fe91c389a98a00800000000000000
+      internalID: 759324395542869906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_33
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1809
+        width: 188
+        height: 338
+      alignment: 9
+      pivot: {x: 0.48593917, y: 0.015640529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e656d3b50f4a883c0800000000000000
+      internalID: -4357051287251098258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_34
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 1806
+        width: 191
+        height: 343
+      alignment: 9
+      pivot: {x: 0.49999937, y: 0.025687793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5444eaa90c5189e0800000000000000
+      internalID: -1620913194285120422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_35
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1805
+        width: 190
+        height: 344
+      alignment: 9
+      pivot: {x: 0.49536198, y: 0.02561312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75900034078031460800000000000000
+      internalID: 7211116706603731287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_36
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 1809
+        width: 189
+        height: 338
+      alignment: 9
+      pivot: {x: 0.4766891, y: 0.02085416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f062728464771120800000000000000
+      internalID: 2384502502750052595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_37
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 1807
+        width: 182
+        height: 340
+      alignment: 9
+      pivot: {x: 0.4709513, y: 0.015548526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3b5885df6dfc590800000000000000
+      internalID: -7651660858278956126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_38
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 1806
+        width: 181
+        height: 341
+      alignment: 9
+      pivot: {x: 0.46592283, y: 0.018086812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661c7efaeeb3fd660800000000000000
+      internalID: 7412709408014582118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_39
+      rect:
+        serializedVersion: 2
+        x: 2958
+        y: 1805
+        width: 180
+        height: 342
+      alignment: 9
+      pivot: {x: 0.45594347, y: 0.023186577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d9b3ff47e9c3b60800000000000000
+      internalID: 7727225285996420352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_40
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1409
+        width: 199
+        height: 343
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e97eefaf40338240800000000000000
+      internalID: 4792727547264530912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_41
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1409
+        width: 199
+        height: 343
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0349ca8df8f01830800000000000000
+      internalID: 4040002633590194957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_42
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1409
+        width: 197
+        height: 343
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7984a997bae09e70800000000000000
+      internalID: 9120047319702866302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_43
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1409
+        width: 195
+        height: 343
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314c5c6c65f91d440800000000000000
+      internalID: 4958919859762480147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_44
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1399
+        width: 197
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4bbf2e76db0f310800000000000000
+      internalID: 1436856535018615979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_45
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 1399
+        width: 198
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474f0807b2c929e10800000000000000
+      internalID: 2202994878122620020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_46
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 1409
+        width: 195
+        height: 343
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f82f985790b39ab0800000000000000
+      internalID: -5002460597005113096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_47
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 1409
+        width: 196
+        height: 343
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bab840f9782baa0800000000000000
+      internalID: -6146701424361493638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_48
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 1409
+        width: 199
+        height: 343
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6cfa86bc9adcf90800000000000000
+      internalID: -6931697560353519889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_49
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1409
+        width: 200
+        height: 343
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32591ca457c569790800000000000000
+      internalID: -7523724468640705245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_50
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 948
+        width: 187
+        height: 341
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342beba1b946047c0800000000000000
+      internalID: -4089157844320996797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_51
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 947
+        width: 195
+        height: 344
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac3a76619c6ffc30800000000000000
+      internalID: 4395351133082238127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_52
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 944
+        width: 213
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdf96a56c2dd2cd0800000000000000
+      internalID: -2581175262051172876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_53
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 944
+        width: 224
+        height: 345
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6237072606667560800000000000000
+      internalID: 7311143221693198958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_54
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 970
+        width: 207
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd72528832b0cb30800000000000000
+      internalID: 4305637199540551097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_55
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1022
+        width: 181
+        height: 338
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08dcebcc5086149a0800000000000000
+      internalID: -6250600433694356096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_56
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 1050
+        width: 197
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084dc1b59f950f3b0800000000000000
+      internalID: -5480781818999548800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_57
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 1025
+        width: 191
+        height: 332
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164d5174c677faaf0800000000000000
+      internalID: -382956136370416543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_58
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 975
+        width: 186
+        height: 337
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f594fdb80af0430800000000000000
+      internalID: 3751393537229938442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_59
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 948
+        width: 186
+        height: 341
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f459b80cfae1be5b0800000000000000
+      internalID: -5338139193119107761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_60
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 539
+        width: 184
+        height: 340
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4171a1e9a09f4cb50800000000000000
+      internalID: 6612683976884229908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_61
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 539
+        width: 181
+        height: 338
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f016d074091192ea0800000000000000
+      internalID: -5897162925699931889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_62
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 539
+        width: 196
+        height: 338
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b362f156211b1d230800000000000000
+      internalID: 3661902664592991803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_63
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 537
+        width: 209
+        height: 337
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a28d56722488620800000000000000
+      internalID: 2776541907253734024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_64
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 537
+        width: 211
+        height: 337
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401580745dd760820800000000000000
+      internalID: 2884130966350614788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_65
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 537
+        width: 211
+        height: 337
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184e414fdae99b710800000000000000
+      internalID: 1709572003525354625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_66
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 537
+        width: 209
+        height: 337
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117b43ed4d73ac460800000000000000
+      internalID: 7262678736488937233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_67
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 539
+        width: 198
+        height: 338
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869eb49cc6695ee60800000000000000
+      internalID: 7990958507816642920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_68
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 539
+        width: 181
+        height: 338
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43ba53fce12f8a80800000000000000
+      internalID: -8462507873227066545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_69
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 539
+        width: 184
+        height: 340
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026edcda2a2345ec0800000000000000
+      internalID: -3579180129570658784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_70
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 155
+        width: 199
+        height: 341
+      alignment: 9
+      pivot: {x: 0.39368948, y: 0.03102018}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d20cfbc4adc39b0800000000000000
+      internalID: -5098960654920831730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_71
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 154
+        width: 196
+        height: 335
+      alignment: 9
+      pivot: {x: 0.5071956, y: 0.027365386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bfb814df4633f10800000000000000
+      internalID: 2248251677877205911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_72
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 152
+        width: 219
+        height: 325
+      alignment: 9
+      pivot: {x: 0.59338075, y: 0.03688702}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23634dc6c73470a0800000000000000
+      internalID: -6884816603355847893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_73
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 150
+        width: 231
+        height: 322
+      alignment: 9
+      pivot: {x: 0.6404268, y: 0.037230592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d330f6809d3c3620800000000000000
+      internalID: 2755144762992374739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_74
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 151
+        width: 231
+        height: 315
+      alignment: 9
+      pivot: {x: 0.7216871, y: 0.040642682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08217214a037a0da0800000000000000
+      internalID: -5977839067500965248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_75
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 155
+        width: 235
+        height: 307
+      alignment: 9
+      pivot: {x: 0.78944325, y: 0.043185357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d01a239cc2003e50800000000000000
+      internalID: 6786927716112928979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_76
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 160
+        width: 253
+        height: 297
+      alignment: 9
+      pivot: {x: 0.8856438, y: 0.04667386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dbe43391d75ad20800000000000000
+      internalID: 3289172650052467976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_77
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 157
+        width: 319
+        height: 262
+      alignment: 9
+      pivot: {x: 0.9444668, y: 0.09615675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6fa2d3b83920a80800000000000000
+      internalID: -8502070920286112022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_78
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 120
+        width: 354
+        height: 201
+      alignment: 9
+      pivot: {x: 0.94686425, y: 0.36144245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b819458823cc21590800000000000000
+      internalID: -7704871495069822581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking shield_79
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 94
+        width: 365
+        height: 176
+      alignment: 9
+      pivot: {x: 0.86336756, y: 0.5048228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61455159ba0616a0800000000000000
+      internalID: -6478979222876110481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
