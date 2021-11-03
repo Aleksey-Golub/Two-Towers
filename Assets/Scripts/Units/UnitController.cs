@@ -1,14 +1,14 @@
 using System.Collections;
-using System.Linq;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider2D), typeof(Rigidbody2D))]
-public class UnitController : MonoBehaviour
+public class UnitController : MonoBehaviour, IDamageAble
 {
     [SerializeField] private Unit_Viewer _viewer;
 
     public int _health = 100;
     public int _armor = 0;
+    public int _damage = 30;
     public float _movement_speed = 1.5f;
     public float _attack_recharge = 3;
     public float _size_multiplier = 1;
@@ -17,97 +17,113 @@ public class UnitController : MonoBehaviour
     public int _team;
     public UnitType _type;
     public int _grade = 1;
+    public AnimationCurve _curve;
 
     float _attack_timer;
-    Transform _enemy_spawn;
+    Castle _enemy_castle;
     UnitState _currentState = UnitState.stay;
     UnitController _target_enemy;
     Rigidbody2D _rb;
     Vector2 _move_direction;
     bool _is_blocked = false;
     bool _is_atacking = false;
-    RaycastHit2D[] _hits;// = new RaycastHit2D[10];
+    RaycastHit2D _hit;// = new RaycastHit2D[10];
+    int _enemy_layer_mask = -1;
+
 
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+        
     }
 
     private void Update()
     {
         _attack_timer += Time.deltaTime;
 
-        if (_attack_timer >= _attack_recharge)
-        {
-            //int hit_count = Physics2D.RaycastNonAlloc(transform.position, _move_direction, _hits, _attack_range);
-            _hits = Physics2D.RaycastAll(transform.position, _move_direction, _attack_range);
-
-            if (_hits.Length > 1)//(hit_count > 1)
-            {
-                var hit = _hits.FirstOrDefault(h => h.collider.gameObject.GetComponent<UnitController>()._team != _team);
-
-                _target_enemy = hit.collider.gameObject.GetComponent<UnitController>();
-            }
-        }
-        
-
-
-        if (_is_atacking == false && ((_is_blocked == false && Vector2.Distance(transform.position, _enemy_spawn.position) > _attack_range) && (_target_enemy == null || _target_enemy && _attack_timer < _attack_recharge)))
-        //if ((_is_blocked == false && Vector2.Distance(transform.position, _enemy_spawn.position) > _attack_range && _target_enemy == null) 
-        // || (_is_blocked == false && Vector2.Distance(transform.position, _enemy_spawn.position) > _attack_range && _target_enemy && _attack_timer < _attack_recharge))
-        {
-            if (_currentState != UnitState.walk)
-            {
-                _currentState = UnitState.walk;
-                _viewer.AnimatorChanger(1);
-            }
-        }
-        else if (_attack_timer >= _attack_recharge && (_target_enemy || Vector2.Distance(transform.position, _enemy_spawn.position) <= _attack_range))
-        {
-            if (_currentState != UnitState.attack)
-            {
-                _currentState = UnitState.attack;
-                _viewer.AnimatorChanger(0);
-            }
-            Attack(_target_enemy);
-        }
-        else
-        {
-            if (_currentState != UnitState.stay)
-            {
-                _currentState = UnitState.stay;
-                _viewer.AnimatorChanger(2);
-            }
-        }
-
-        //switch (_currentState)
+        //if (_is_atacking == false && ((_is_blocked == false && Vector2.Distance(transform.position, _enemy_spawn.position) > _attack_range) && (_target_enemy == null || _target_enemy && _attack_timer < _attack_recharge)))
+        ////if ((_is_blocked == false && Vector2.Distance(transform.position, _enemy_spawn.position) > _attack_range && _target_enemy == null) 
+        //// || (_is_blocked == false && Vector2.Distance(transform.position, _enemy_spawn.position) > _attack_range && _target_enemy && _attack_timer < _attack_recharge))
         //{
-        //    case UnitState.stay:
-        //        if (_is_blocked == false)
-        //        {
-
-        //        }
-        //        break;
-        //    case UnitState.walk:
-        //        break;
-        //    case UnitState.attack:
-        //        break;
-        //    case UnitState.death:
-        //        break;
+        //    if (_currentState != UnitState.walk)
+        //    {
+        //        _currentState = UnitState.walk;
+        //        _viewer.AnimatorChanger(1);
+        //    }
         //}
+        //else if (_attack_timer >= _attack_recharge && (_target_enemy || Vector2.Distance(transform.position, _enemy_spawn.position) <= _attack_range))
+        //{
+        //    if (_currentState != UnitState.attack)
+        //    {
+        //        _currentState = UnitState.attack;
+        //        _viewer.AnimatorChanger(0);
+        //    }
+        //    Attack(_target_enemy);
+        //}
+        //else
+        //{
+        //    if (_currentState != UnitState.stay)
+        //    {
+        //        _currentState = UnitState.stay;
+        //        _viewer.AnimatorChanger(2);
+        //    }
+        //}
+
+        switch (_currentState)
+        {
+            case UnitState.stay:
+                _viewer.AnimatorChanger(2);
+
+                if (_is_blocked == false && _is_atacking == false && Vector2.Distance(transform.position, _enemy_castle.TargetPoint.position) > _attack_range)
+                    _currentState = UnitState.walk;
+                else if (_target_enemy && _attack_timer >= _attack_recharge && _is_atacking == false && Vector2.Distance(transform.position, _target_enemy.transform.position) <= _attack_range)
+                    _currentState = UnitState.attack;
+                break;
+
+            case UnitState.walk:
+                _viewer.AnimatorChanger(1);
+
+                if (_is_blocked || Vector2.Distance(transform.position, _enemy_castle.TargetPoint.position) <= _attack_range)
+                    _currentState = UnitState.stay;
+                else if (_target_enemy && _attack_timer >= _attack_recharge && Vector2.Distance(transform.position, _target_enemy.transform.position) <= _attack_range)
+                    _currentState = UnitState.attack;
+                break;
+
+            case UnitState.attack:
+                _viewer.AnimatorChanger(0);
+                Attack(_target_enemy);
+
+                _currentState = UnitState.stay;
+                break;
+        }
     }
     private void FixedUpdate()
     {
+        if (_attack_timer >= _attack_recharge)
+        {
+            //int hit_count = Physics2D.RaycastNonAlloc(transform.position, _move_direction, _hits, _attack_range);
+            _hit = Physics2D.Raycast(transform.position, _move_direction, _attack_range, _enemy_layer_mask);
+
+            if (_hit.collider != null)//(hit_count > 1)
+            {
+                _target_enemy = _hit.collider.gameObject.GetComponent<UnitController>();
+            }
+            else
+                _target_enemy = null;
+        }
+
         if (_currentState == UnitState.walk)
             Move();
+
         CorrectSize();
     }
 
     
-    private void Attack(UnitController unit)
+    private void Attack(IDamageAble target)
     {
         _is_atacking = true;
         // attack logic
+        target.TakeDamage(_damage);
 
         _attack_timer = 0;
     }
@@ -180,13 +196,15 @@ public class UnitController : MonoBehaviour
         _health *= 2;
     }
 
-    public void Init(int team_index, Transform enemy_spawn, Vector2 move_direction)
+    public void Init(int team_index, Castle enemy_castle, Vector2 move_direction)
     {
         _team = team_index;
-        _enemy_spawn = enemy_spawn;
+        _enemy_castle = enemy_castle;
         _move_direction = move_direction;
-    }
 
+        gameObject.layer = _team == 0 ? 30 : 31;
+        _enemy_layer_mask = 1 << (_team == 0 ? 31 : 30);
+    }
 
     public IEnumerator ChangeScale(float targetSizeMultiplier, float duration)
     {
@@ -212,6 +230,25 @@ public class UnitController : MonoBehaviour
     private void CorrectSize()
     {
         transform.localScale = Vector2.Lerp(transform.localScale, new Vector2(1 * _size_multiplier, 1 * _size_multiplier), .2f);
+    }
+
+    public void TakeDamage(int damage)
+    {
+        int reseavedDamage = Mathf.Max(0, damage - _armor);
+        _health -= reseavedDamage;
+
+        if(_health <= 0)
+        {
+            _viewer.AnimatorChanger(3);
+
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        GetComponent<BoxCollider2D>().enabled = false;
+        enabled = false;
     }
 
     public enum UnitState

@@ -8,13 +8,13 @@ public class UnitSpawner : MonoBehaviour
     [SerializeField] private int _team_index;
     [SerializeField] private Transform _spawn_point;
 
-    private Transform _enemy_spawn_point;
+    private Castle _enemy_castle;
     private Vector2 _normalizeDirectionToEnemySpawn;
 
     private void Start()
     {
-        FindEnemySpawn();
-        _normalizeDirectionToEnemySpawn = (_enemy_spawn_point.position - _spawn_point.position).normalized;
+        FindEnemyCastle();
+        _normalizeDirectionToEnemySpawn = (_enemy_castle.TargetPoint.position - _spawn_point.position).normalized;
 
         //SpawnUnit(_archerPrefab);
         StartCoroutine(Spawn5Units(_archerPrefab));
@@ -34,15 +34,15 @@ public class UnitSpawner : MonoBehaviour
     private void SpawnUnit(UnitController unit)
     {
         var go = Instantiate(unit, _spawn_point.position, _spawn_point.rotation) as UnitController;
-        go.Init(_team_index, _enemy_spawn_point, _normalizeDirectionToEnemySpawn);
+        go.Init(_team_index, _enemy_castle, _normalizeDirectionToEnemySpawn);
     }
 
-    private void FindEnemySpawn()
+    private void FindEnemyCastle()
     {
-        foreach (var p in FindObjectsOfType<SpawnPoint>())
+        foreach (var p in FindObjectsOfType<Castle>())
         {
-            if (p.transform != _spawn_point)
-                _enemy_spawn_point = p.transform;
+            if (p != GetComponent<Castle>())
+                _enemy_castle = p;
         }
     }
 }

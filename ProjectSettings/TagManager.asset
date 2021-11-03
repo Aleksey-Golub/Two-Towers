@@ -35,8 +35,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Team 0
+  - Team 1
   m_SortingLayers:
   - name: Default
     uniqueID: 0
