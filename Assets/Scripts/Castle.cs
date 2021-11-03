@@ -3,7 +3,7 @@ using UnityEngine;
 public class Castle : MonoBehaviour, IDamageAble
 {
     public Transform BulletTargetPoint;
-    public Transform TargetPoint;
+    public CastleTargetPoint TargetPoint;
 
     private int _health = 250;
 

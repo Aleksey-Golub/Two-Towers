@@ -49,14 +49,23 @@ MonoBehaviour:
   _viewer: {fileID: 5887315876934065048}
   _health: 100
   _armor: 0
+  _damage: 30
   _movement_speed: 1.5
+  _stop_distance: 2.4
   _attack_recharge: 3
+  _attack_range: 2.5
   _size_multiplier: 1
   _color: {r: 1, g: 1, b: 1, a: 1}
-  _attack_range: 1
   _team: 0
   _type: 0
   _grade: 1
+  _bullet_flight_curve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _attack_type: 0
 --- !u!61 &2963287940155001069
 BoxCollider2D:
   m_ObjectHideFlags: 0

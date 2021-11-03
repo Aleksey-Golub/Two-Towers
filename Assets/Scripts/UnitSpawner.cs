@@ -14,12 +14,13 @@ public class UnitSpawner : MonoBehaviour
     private void Start()
     {
         FindEnemyCastle();
-        _normalizeDirectionToEnemySpawn = (_enemy_castle.TargetPoint.position - _spawn_point.position).normalized;
+        _normalizeDirectionToEnemySpawn = (_enemy_castle.TargetPoint.transform.position - _spawn_point.position).normalized;
 
-        //SpawnUnit(_archerPrefab);
-        StartCoroutine(Spawn5Units(_archerPrefab));
+        // test zone
+        SpawnUnit(_archerPrefab);
+        SpawnUnit(_knightPrefab);
+        //StartCoroutine(Spawn5Units(_archerPrefab));
     }
-
 
     private IEnumerator Spawn5Units(UnitController unit)
     {
