@@ -5,35 +5,35 @@ using UnityEngine;
 public class UnitController : MonoBehaviour, IDamageAble
 {
     [SerializeField] private Unit_Viewer _viewer;
+    [SerializeField] private ParticleSystem _hit_effect;
 
     public int _health = 100;
     public int _armor = 0;
     public int _damage = 30;
     public float _movement_speed = 1.5f;
     public float _stop_distance = 2.4f; // 2,4 для всех типов юнитов
-    public float _attack_recharge = 3;
+    public float _attack_recharge_time = 3;
     public float _attack_range = 2.5f; // 2.5 для мили 1+1+0,2+0,2 и 0,1 запас
     public float _size_multiplier = 1;
     public Color _color = Color.white;
     public int _team;
     public UnitType _type;
     public int _grade = 1;
-    public AnimationCurve _bullet_flight_curve;
-    public AttackType _attack_type;
 
-    float _attack_timer;
-    Castle _enemy_castle;
+    protected float _attack_timer;
+    protected Castle _enemy_castle;
+    protected Transform _target;
+    protected Vector2 _move_direction;
+    protected RaycastHit2D _hit;
+    protected int _enemy_layer_mask = -1;
+    
     UnitState _currentState = UnitState.stay;
-    Transform _target;
     Rigidbody2D _rb;
-    Vector2 _move_direction;
     bool _is_blocked = false;
     /// <summary>
-    /// Устанавливается в false из AnimationEvent в анимации Attack юнита, в true во время атаки
+    /// Нахождение в состоянии атаки. Устанавливается в false из AnimationEvent в анимации Attack юнита, в true во время атаки
     /// </summary>
     bool _is_atacking = false;
-    RaycastHit2D _hit;
-    int _enemy_layer_mask = -1;
 
     private void Start()
     {
@@ -51,7 +51,7 @@ public class UnitController : MonoBehaviour, IDamageAble
 
                 if (_is_blocked == false && _is_atacking == false && Vector2.Distance(transform.position, _enemy_castle.TargetPoint.transform.position) > _stop_distance)
                     _currentState = UnitState.walk;
-                else if (_attack_timer >= _attack_recharge && _is_atacking == false && Vector2.Distance(transform.position, _target.position) <= _attack_range)
+                else if (_attack_timer >= _attack_recharge_time && _is_atacking == false && Vector2.Distance(transform.position, _target.position) <= _attack_range)
                     _currentState = UnitState.attack;
                 break;
 
@@ -60,22 +60,24 @@ public class UnitController : MonoBehaviour, IDamageAble
 
                 if (_is_blocked || Vector2.Distance(transform.position, _enemy_castle.TargetPoint.transform.position) <= _stop_distance)
                     _currentState = UnitState.stay;
-                else if (_attack_timer >= _attack_recharge && Vector2.Distance(transform.position, _target.position) <= _attack_range)
+                else if (_attack_timer >= _attack_recharge_time && Vector2.Distance(transform.position, _target.position) <= _attack_range)
                     _currentState = UnitState.attack;
                 break;
 
             case UnitState.attack:
                 _viewer.AnimatorChanger(0);
-                Attack(_target.GetComponent<IDamageAble>());
+
+                _is_atacking = true;
+                _attack_timer = 0;
 
                 _currentState = UnitState.stay;
                 break;
         }
     }
+
     private void FixedUpdate()
     {
-        if (_attack_type == AttackType.ranged)
-            CheckRangedTarget();
+        CheckRangedTarget();
 
         if (_currentState == UnitState.walk)
             Move();
@@ -83,28 +85,11 @@ public class UnitController : MonoBehaviour, IDamageAble
         CorrectSize();
     }
 
-    private void CheckRangedTarget()
+    protected virtual void CheckRangedTarget() {}
+
+    public virtual void DamageTarget()
     {
-        if (_attack_timer >= _attack_recharge)
-        {
-            _hit = Physics2D.Raycast(transform.position, _move_direction, _attack_range, _enemy_layer_mask);
-
-            if (_hit.collider != null)
-            {
-                _target = _hit.collider.transform;
-            }
-            else
-                _target = _enemy_castle.TargetPoint.transform;
-        }
-    }
-
-    private void Attack(IDamageAble target)
-    {
-        _is_atacking = true;
-        // attack logic
-        target.TakeDamage(_damage);
-
-        _attack_timer = 0;
+        _target.GetComponent<IDamageAble>().TakeDamage(_damage);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -170,7 +155,7 @@ public class UnitController : MonoBehaviour, IDamageAble
         _is_atacking = false;
     }
 
-    public void UpGrade()
+    private void UpGrade()
     {
         _grade++;
 
@@ -179,12 +164,12 @@ public class UnitController : MonoBehaviour, IDamageAble
         _health *= 2;
     }
 
-    public void Init(int team_index, Castle enemy_castle, Vector2 move_direction)
+    public void Init(int teamIndex, Castle enemyCastle, Vector2 moveDirection)
     {
-        _team = team_index;
-        _enemy_castle = enemy_castle;
+        _team = teamIndex;
+        _enemy_castle = enemyCastle;
         _target = _enemy_castle.TargetPoint.transform;
-        _move_direction = move_direction;
+        _move_direction = moveDirection;
 
         gameObject.layer = _team == 0 ? 30 : 31;
         _enemy_layer_mask = 1 << (_team == 0 ? 31 : 30);
@@ -220,6 +205,7 @@ public class UnitController : MonoBehaviour, IDamageAble
     {
         int reseavedDamage = Mathf.Max(0, damage - _armor);
         _health -= reseavedDamage;
+        _hit_effect.Play();
 
         if(_health <= 0)
         {
@@ -248,11 +234,5 @@ public class UnitController : MonoBehaviour, IDamageAble
         knight,
         archer,
         wizard
-    }
-
-    public enum AttackType
-    {
-        melee,
-        ranged
     }
 }

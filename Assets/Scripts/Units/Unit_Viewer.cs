@@ -24,8 +24,13 @@ public class Unit_Viewer : MonoBehaviour
         _anim_old_index = number;
     }
 
-    public void OnAttackAnimationFinished()
+    public void OnAttackAnimationFinishedEvent()
     {
         _unit.OffAttacking();
+    }
+
+    public void OnAttackAnimationEvent()
+    {
+        _unit.DamageTarget();
     }
 }
