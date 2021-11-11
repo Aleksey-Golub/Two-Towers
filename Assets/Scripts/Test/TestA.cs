@@ -9,7 +9,7 @@ public class TestA : MonoBehaviour
         Debug.Log("Start TestA");
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         Debug.Log("Update TestA");
     }

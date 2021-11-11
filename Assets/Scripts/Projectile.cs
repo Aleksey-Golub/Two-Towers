@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
@@ -12,7 +13,16 @@ public class Projectile : MonoBehaviour
     private float _flight_time;
     private float _timer;
 
-    public void Init(Vector3 endPoint, float flightTime, IDamageAble target, int damage, AnimationCurve curve, bool needCorrectDefaultCurve = true)
+    /// <summary>
+    /// Projectile Initialization. 
+    /// </summary>
+    /// <param name="endPoint"></param>
+    /// <param name="flightTime"></param>
+    /// <param name="target"></param>
+    /// <param name="damage"></param>
+    /// <param name="curve"></param>
+    /// <param name="doParabolicTrajectory">true - parabolic trajectory, animation curve have to consist of three keys; false - linear trajectory, animation curve have to consist of two keys</param>
+    public void Init(Vector3 endPoint, float flightTime, IDamageAble target, int damage, AnimationCurve curve, bool doParabolicTrajectory = true)
     {
         _target = target;
         _damage = damage;
@@ -20,23 +30,32 @@ public class Projectile : MonoBehaviour
         _end_point = endPoint;
         _flight_time = flightTime;
         
-        SetCurve(curve, needCorrectDefaultCurve);
+        SetCurve(curve, doParabolicTrajectory);
     }
 
-    private void SetCurve(AnimationCurve defaultCurve, bool needCorrectDefaultCurve)
+    private void SetCurve(AnimationCurve defaultCurve, bool doParabolicTrajectory)
     {
         _flight_curve = new AnimationCurve(defaultCurve.keys);
-
-        if (needCorrectDefaultCurve == false)
-            return;
 
         float yDelta = _end_point.y - _start_point.y;
         if (yDelta == 0)
             return;
 
-        Keyframe endKey = _flight_curve.keys[2];
+        int endKeyIndex = _flight_curve.keys.Length - 1;
+        Keyframe endKey = _flight_curve.keys[endKeyIndex];
         endKey.value += yDelta;
-        _flight_curve.MoveKey(2, endKey);
+        _flight_curve.MoveKey(endKeyIndex, endKey);
+
+        if (doParabolicTrajectory == false)
+        {
+            for (int i = 0; i < _flight_curve.keys.Length; i++)
+            {
+                AnimationUtility.SetKeyLeftTangentMode(_flight_curve, i, AnimationUtility.TangentMode.Linear);
+                AnimationUtility.SetKeyRightTangentMode(_flight_curve, i, AnimationUtility.TangentMode.Linear);
+            }
+            
+            return;
+        }
 
         Keyframe middleKey = _flight_curve.keys[1];
         middleKey.value = yDelta > middleKey.value ? yDelta : middleKey.value;

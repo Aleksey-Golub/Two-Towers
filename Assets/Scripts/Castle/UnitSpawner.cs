@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class UnitSpawner : MonoBehaviour
 {
-    [SerializeField] private UnitController _knightPrefab;
-    [SerializeField] private UnitController _archerPrefab;
+    [SerializeField] private Unit _knightPrefab;
+    [SerializeField] private Unit _archerPrefab;
     [SerializeField] private int _team_index;
     [SerializeField] private Transform _spawn_point;
 
@@ -23,13 +23,13 @@ public class UnitSpawner : MonoBehaviour
 
         // test zone
         SpawnWeapon();
-        SpawnUnit(_archerPrefab);
+        //SpawnUnit(_archerPrefab);
         //SpawnUnit(_knightPrefab);
-        //StartCoroutine(Spawn5Units(_archerPrefab));
+        StartCoroutine(Spawn5Units(_archerPrefab));
         //StartCoroutine(Spawn5Units(_knightPrefab));
     }
 
-    private IEnumerator Spawn5Units(UnitController unit)
+    private IEnumerator Spawn5Units(Unit unit)
     {
         var waitForTwoSecond = new WaitForSeconds(2f);
         for (int i = 0; i < 5; i++)
@@ -41,13 +41,13 @@ public class UnitSpawner : MonoBehaviour
 
     private void SpawnWeapon() 
     {
-        var go = Instantiate(_ballistaPrefab, _ballistaSpawnPoint.position, Quaternion.identity, _ballistaSpawnPoint) as CastleWeapon;
+        var go = Instantiate(_ballistaPrefab, _ballistaSpawnPoint.position, _ballistaSpawnPoint.rotation, _ballistaSpawnPoint) as CastleWeapon;
         go.Init(_team_index, _normalizeDirectionToEnemySpawn, _castleWeaponRaycastPoint);
     }
 
-    private void SpawnUnit(UnitController unit)
+    private void SpawnUnit(Unit unit)
     {
-        var go = Instantiate(unit, _spawn_point.position, _spawn_point.rotation) as UnitController;
+        var go = Instantiate(unit, _spawn_point.position, _spawn_point.rotation) as Unit;
         go.Init(_team_index, _enemy_castle, _normalizeDirectionToEnemySpawn);
     }
 

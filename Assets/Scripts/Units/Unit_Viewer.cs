@@ -3,7 +3,7 @@ using UnityEngine;
 public class Unit_Viewer : MonoBehaviour
 {
     [SerializeField] private Animator _anim_control;
-    [SerializeField] private UnitController _unit;
+    [SerializeField] private Unit _unit;
     string[]
         _animS_type = new string[] { "Fight", "Walk", "Stay", "Death" };
     int

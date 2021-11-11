@@ -9,8 +9,9 @@ public class TestB : TestA
         Debug.Log("Start TestB");
     }
 
-    protected virtual void Update()
+    protected override void Update()
     {
+        base.Update();
         Debug.Log("Update TestB");
     }
 }

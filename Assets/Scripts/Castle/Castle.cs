@@ -7,11 +7,15 @@ public class Castle : MonoBehaviour, IDamageAble
     [SerializeField] private int _currentHealth;
     [SerializeField] private ParticleSystem _hit_effect;
 
+    public PlayerWallet Wallet => _wallet;
     public CastleTargetPoint TargetPoint;
     public event UnityAction<int, int> HealthChanged;
 
+    private PlayerWallet _wallet = new PlayerWallet(100);
+
     private void Start()
     {
+        Wallet.AddMoney(0);
         _currentHealth = _maxHealth;
         HealthChanged?.Invoke(_currentHealth, _maxHealth);
     }
