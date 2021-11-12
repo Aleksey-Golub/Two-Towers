@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 292826672803514098}
+  - component: {fileID: 1203795845956118218}
   - component: {fileID: 1981026874288302756}
   - component: {fileID: 7412276081712191715}
   - component: {fileID: 292826672803514097}
@@ -36,6 +37,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1203795845956118218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292826672803514096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54b37c7a726a9346aba445815efb72e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1981026874288302756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51,6 +64,8 @@ MonoBehaviour:
   _maxHealth: 250
   _currentHealth: 0
   _hit_effect: {fileID: 4070989577999120204}
+  _spawner: {fileID: 7412276081712191715}
+  _wallet: {fileID: 1203795845956118218}
   TargetPoint: {fileID: 2273301412687159089}
 --- !u!114 &7412276081712191715
 MonoBehaviour:
@@ -64,10 +79,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ad14716a7b72443a83b92addd54943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _knightPrefab: {fileID: 1330785047509174466, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
-  _archerPrefab: {fileID: 7984517260120950640, guid: 19e4826efb0ffc347bfef6d76e4d7462, type: 3}
+  _unitsPresets:
+  - {fileID: 11400000, guid: 0262e6208105ba64abc9650758ae4ab0, type: 2}
+  - {fileID: 11400000, guid: 18741d213c0310640b0612ae9c1bb34f, type: 2}
   _team_index: 0
   _spawn_point: {fileID: 976150446289837361}
+  _unitSpawnDelay: 5
   _ballistaPrefab: {fileID: 6603201313508590883, guid: 5569e4a00fba92148868f33a35d68bb0, type: 3}
   _castleWeaponRaycastPoint: {fileID: 8822984705589222908}
   _ballistaSpawnPoint: {fileID: 793384000203618994}

@@ -1,13 +1,19 @@
 using System;
+using UnityEngine;
 
-public class PlayerWallet
+public class PlayerWallet : MonoBehaviour
 {
     public int Money { get; private set; }
     public event Action<int> MoneyChanged;
 
-    public PlayerWallet(int startMoney)
+    private void OnEnable()
     {
-        Money = startMoney;
+        MoneyDispenser.Instance.MoneyDispensed += AddMoney;
+    }
+
+    private void OnDisable()
+    {
+        MoneyDispenser.Instance.MoneyDispensed -= AddMoney;
     }
 
     public void AddMoney(int addingMoney)
