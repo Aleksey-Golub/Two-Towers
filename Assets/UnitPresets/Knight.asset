@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Knight
   m_EditorClassIdentifier: 
   _prefab: {fileID: 1330785047509174466, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
-  _sprite: {fileID: 82707731993968007, guid: 55f14061c2690914893372716905fc39, type: 3}
+  _sprite: {fileID: 3703355987470683499, guid: 60b653417c88d984eb899d035b59cbd0, type: 3}

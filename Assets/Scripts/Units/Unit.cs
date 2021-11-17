@@ -237,6 +237,13 @@ public class Unit : BaseUnit, IDamageAble
     {
         knight,
         archer,
-        wizard
+        wizard,
+        catapult,
+        ninja,
+        samuraiHeavy,
+        samuraiLight,
+        vikingLight,
+        vikingShield,
+        vikingTwoHandedAxe
     }
 }

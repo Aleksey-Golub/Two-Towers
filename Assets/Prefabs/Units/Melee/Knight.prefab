@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _attackRechargeTime: 3
-  _attackRange: 2.5
+  _attackRange: 3
   _damage: 30
   _cost: 20
   _viewer: {fileID: 5887315876934065048}
@@ -59,7 +59,7 @@ MonoBehaviour:
   _maxHealth: 100
   _armor: 0
   _movement_speed: 1.5
-  _stop_distance: 2.4
+  _stop_distance: 3
   _size_multiplier: 1
   _color: {r: 1, g: 1, b: 1, a: 1}
   _team: 0

@@ -17,7 +17,7 @@ public class Castle : MonoBehaviour, IDamageAble
 
     private void Start()
     {
-        Wallet.AddMoney(100);
+        Wallet.AddMoney(500);
         _currentHealth = _maxHealth;
         HealthChanged?.Invoke(_currentHealth, _maxHealth);
     }

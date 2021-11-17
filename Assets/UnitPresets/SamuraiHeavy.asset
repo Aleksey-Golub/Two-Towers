@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bafed10fc6cf8643ba3c0cfa89b1e2a, type: 3}
+  m_Name: SamuraiHeavy
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 3117566409167695147, guid: bf42ba3d93bfba54bbf31e0ed7fd62f0, type: 3}
+  _sprite: {fileID: -8594060794301739771, guid: 60b653417c88d984eb899d035b59cbd0, type: 3}

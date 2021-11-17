@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Archer
   m_EditorClassIdentifier: 
   _prefab: {fileID: 7984517260120950640, guid: 19e4826efb0ffc347bfef6d76e4d7462, type: 3}
-  _sprite: {fileID: -1557013538026691241, guid: 55f14061c2690914893372716905fc39, type: 3}
+  _sprite: {fileID: -1113498556241835131, guid: 60b653417c88d984eb899d035b59cbd0, type: 3}

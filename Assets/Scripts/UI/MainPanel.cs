@@ -43,7 +43,7 @@ public class MainPanel : MonoBehaviour
         {
             unitPreset = _myCastle.Spawner.UnitsPresets[i];
             var unitBtn = Instantiate(_unitBtnPrefab, _unitPanel.transform) as UnitButton;
-            unitBtn.Init(unitPreset.Sprite, unitPreset.Prefab.Cost, i, _myCastle.Spawner.TryBuyUnit);
+            unitBtn.Init(unitPreset.Sprite, unitPreset.Prefab.Cost, i, _myCastle.Spawner);
         }
     }
 

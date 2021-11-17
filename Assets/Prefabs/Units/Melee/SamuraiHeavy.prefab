@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4121980936232297961
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 538761980131636680, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 538761980131636680, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1330785047509174466, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: _cost
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1330785047509174466, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: _type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1330785047509174466, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: _armor
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1330785047509174466, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: _damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1330785047509174466, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: _maxHealth
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: 1330785047509174466, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: _attackRechargeTime
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073175845538233878, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073175845538233878, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073175845538233878, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073175845538233878, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073175845538233878, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073175845538233878, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073175845538233878, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073175845538233878, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073175845538233878, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073175845538233878, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073175845538233878, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073175845538233881, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_Name
+      value: SamuraiHeavy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073175846582061790, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5506203657923161950, guid: 9cf51c5fbf8ca7844974d12cd356917f, type: 3}
+    - target: {fileID: 2073175846582061791, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1d3958d15386811498e1ff7154666a32, type: 2}
+    - target: {fileID: 2073175846582062368, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}
+      propertyPath: m_Name
+      value: SamuraiHeavy view
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b0ac6bddc6a2584aa5eac927a0ee828, type: 3}

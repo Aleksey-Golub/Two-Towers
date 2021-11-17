@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(Castle))]
 public class UnitSpawner : MonoBehaviour
@@ -22,6 +23,7 @@ public class UnitSpawner : MonoBehaviour
     private float _unitSpawnTimer;
 
     public UnitPreset[] UnitsPresets => _unitsPresets;
+    public event UnityAction<int, float> SpawnProgressUpdated;
 
     private void Start()
     {
@@ -40,11 +42,12 @@ public class UnitSpawner : MonoBehaviour
 
     private void Update()
     {
-        //Debug.Log(_queueOfUnitIndexes.Count);
-
         if (_queueOfUnitIndexes.Count > 0)
         {
             _unitSpawnTimer += Time.deltaTime;
+
+            float nomalizeTime = _unitSpawnTimer / _unitSpawnDelay;
+            SpawnProgressUpdated?.Invoke(_queueOfUnitIndexes.Peek(), nomalizeTime);
         }
 
         if (_unitSpawnTimer >= _unitSpawnDelay)

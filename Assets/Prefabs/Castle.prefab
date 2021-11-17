@@ -82,6 +82,14 @@ MonoBehaviour:
   _unitsPresets:
   - {fileID: 11400000, guid: 0262e6208105ba64abc9650758ae4ab0, type: 2}
   - {fileID: 11400000, guid: 18741d213c0310640b0612ae9c1bb34f, type: 2}
+  - {fileID: 11400000, guid: 77146f0aa885c704c8013fff99a2c03d, type: 2}
+  - {fileID: 11400000, guid: 35822c4b6b408f440bd53e78edbbad19, type: 2}
+  - {fileID: 11400000, guid: 82d6dbe3168674c4582746af947ab63f, type: 2}
+  - {fileID: 11400000, guid: 7c11d48d11e46994c8bdc3db498f7ba3, type: 2}
+  - {fileID: 11400000, guid: 8e0765212fe26924ba85d5e8e74f043d, type: 2}
+  - {fileID: 11400000, guid: ad19a2992c830a649b8df44e85c8314b, type: 2}
+  - {fileID: 11400000, guid: 631dc9056b4657042b3a5e01fa0df635, type: 2}
+  - {fileID: 11400000, guid: 4d1ef70b2abaece4ab9dfaa1c7166038, type: 2}
   _team_index: 0
   _spawn_point: {fileID: 976150446289837361}
   _unitSpawnDelay: 5
@@ -281,7 +289,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6988431546922368052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.04, y: -4, z: 0}
+  m_LocalPosition: {x: 4.64, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1034380646443844093}
