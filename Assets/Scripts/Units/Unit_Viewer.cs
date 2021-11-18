@@ -13,7 +13,7 @@ public class Unit_Viewer : MonoBehaviour
     /// 0 - Fight | 1 - Walk | 2 - Stay | 3 - Death
     /// </summary>
     /// <param name="number"></param>
-    public void AnimatorChanger(int number)
+    public void StartAnimation(int number)
     {
         if (number < 0 || number > _animS_type.Length - 1)
             return;

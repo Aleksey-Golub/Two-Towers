@@ -51,7 +51,7 @@ public class Unit : BaseUnit, IDamageAble
         switch (_currentState)
         {
             case UnitState.stay:
-                _viewer.AnimatorChanger(2);
+                _viewer.StartAnimation(2);
 
                 if (_is_blocked == false && _is_atacking == false && Vector2.Distance(transform.position, _enemy_castle.TargetPoint.transform.position) > _stop_distance)
                     _currentState = UnitState.walk;
@@ -60,7 +60,7 @@ public class Unit : BaseUnit, IDamageAble
                 break;
 
             case UnitState.walk:
-                _viewer.AnimatorChanger(1);
+                _viewer.StartAnimation(1);
 
                 if (_is_blocked || Vector2.Distance(transform.position, _enemy_castle.TargetPoint.transform.position) <= _stop_distance)
                     _currentState = UnitState.stay;
@@ -69,7 +69,7 @@ public class Unit : BaseUnit, IDamageAble
                 break;
 
             case UnitState.attack:
-                _viewer.AnimatorChanger(0);
+                _viewer.StartAnimation(0);
 
                 _is_atacking = true;
                
@@ -213,7 +213,7 @@ public class Unit : BaseUnit, IDamageAble
 
         if (_currentHealth <= 0)
         {
-            _viewer.AnimatorChanger(3);
+            _viewer.StartAnimation(3);
 
             Die();
         }

@@ -1,4 +1,3 @@
-using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,7 +6,7 @@ public class MainPanel : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private GameObject _actionPanel;
-    [SerializeField] private GameObject _unitPanel;
+    [SerializeField] private UnitPanel _unitPanel;
     [SerializeField] private Button _buyCastleWeaponPlaceBtn;
     [SerializeField] private GameObject _addCastleWeaponPanel;
     [SerializeField] private GameObject _removeCastleWeapontPanel;
@@ -15,9 +14,6 @@ public class MainPanel : MonoBehaviour
     [SerializeField] private TMP_Text _moneyText;
 
     [SerializeField] private Castle _myCastle;
-
-    [Header("Templates")]
-    [SerializeField] private UnitButton _unitBtnPrefab;
 
     private void OnEnable()
     {
@@ -32,24 +28,12 @@ public class MainPanel : MonoBehaviour
     private void Start()
     {
         BackToActionPanel();
-        InitUnitPanel();
-    }
-
-    private void InitUnitPanel()
-    {
-        UnitPreset unitPreset;
-
-        for (int i = 0; i < _myCastle.Spawner.UnitsPresets.Length; i++)
-        {
-            unitPreset = _myCastle.Spawner.UnitsPresets[i];
-            var unitBtn = Instantiate(_unitBtnPrefab, _unitPanel.transform) as UnitButton;
-            unitBtn.Init(unitPreset.Sprite, unitPreset.Prefab.Cost, i, _myCastle.Spawner);
-        }
+        _unitPanel.InitUnitPanel(_myCastle);
     }
 
     public void BackToActionPanel()
     {
-        _unitPanel.SetActive(false);
+        _unitPanel.gameObject.SetActive(false);
         _addCastleWeaponPanel.SetActive(false);
         _removeCastleWeapontPanel.SetActive(false);
 
