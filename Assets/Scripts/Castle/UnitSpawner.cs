@@ -24,13 +24,18 @@ public class UnitSpawner : MonoBehaviour
 
     public UnitPreset[] UnitsPresets => _unitsPresets;
     public event UnityAction<int, float> SpawnProgressUpdated;
+    public int TeamIndex => _team_index;
+    public Castle Enemy_castle => _enemy_castle;
+
+    private void Awake()
+    {
+        FindEnemyCastle();
+        _normalizeDirectionToEnemySpawn = (_enemy_castle.TargetPoint.transform.position - _spawn_point.position).normalized;
+    }
 
     private void Start()
     {
         _myCastle = GetComponent<Castle>();
-
-        FindEnemyCastle();
-        _normalizeDirectionToEnemySpawn = (_enemy_castle.TargetPoint.transform.position - _spawn_point.position).normalized;
 
         // test zone
         // _unitsPrefabs[knight, archer, mage, catapult]
