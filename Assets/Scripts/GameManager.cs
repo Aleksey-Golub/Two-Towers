@@ -1,11 +1,16 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : Singleton<GameManager>
 {
-    [SerializeField] private GameOverPanel _gameOverPanel;
-
+    private GameOverPanel _gameOverPanel;
     private List<Castle> _castles = new List<Castle>();
+
+    public void RegisterGameOverPanel(GameOverPanel gameOverPanel)
+    {
+        _gameOverPanel = gameOverPanel;
+    }
 
     public void RegisterCastle(Castle castle)
     {

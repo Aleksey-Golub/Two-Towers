@@ -14,12 +14,19 @@ public class UnitInformationViewer : MonoBehaviour
     {
         _unit.HealthChanged += OnHealthChanged;
         _unit.GradeChanged += OnGradeChanged;
+        _unit.Died += OnDied;
     }
 
     private void OnDisable()
     {
         _unit.HealthChanged -= OnHealthChanged;
         _unit.GradeChanged -= OnGradeChanged;
+        _unit.Died -= OnDied;
+    }
+
+    private void OnDied()
+    {
+        gameObject.SetActive(false);
     }
 
     private void OnHealthChanged(int currentHealth, int maxHealth)

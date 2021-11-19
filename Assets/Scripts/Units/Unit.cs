@@ -22,6 +22,7 @@ public class Unit : BaseUnit, IDamageAble
     public int _grade = 1;
 
     public event UnityAction<int, int> HealthChanged;
+    public event UnityAction Died;
     public event UnityAction<int> GradeChanged;
 
     protected Castle _enemy_castle;
@@ -111,7 +112,7 @@ public class Unit : BaseUnit, IDamageAble
             if (IsPossibleToMergeWith(unit))
             {
                 // to do // убирать в пул объектов
-                unit.gameObject.SetActive(false);
+                unit.Recycle();
 
                 UpGrade();
             }
@@ -213,16 +214,26 @@ public class Unit : BaseUnit, IDamageAble
 
         if (_currentHealth <= 0)
         {
-            _viewer.StartAnimation(3);
-
             Die();
         }
     }
 
     private void Die()
     {
+        _viewer.StartAnimation(3);
+
         GetComponent<BoxCollider2D>().enabled = false;
         enabled = false;
+
+        Died?.Invoke();
+
+        // Recycle in Pool
+        Invoke(nameof(Recycle), 1.5f);
+    }
+
+    private void Recycle()
+    {
+        Destroy(gameObject);
     }
 
     public enum UnitState

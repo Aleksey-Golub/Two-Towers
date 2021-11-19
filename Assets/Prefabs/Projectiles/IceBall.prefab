@@ -124,6 +124,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice_Ball_Effect
       objectReference: {fileID: 0}
+    - target: {fileID: 577059264615457731, guid: 5bf99ec17cf2af14a82a0f130be27d55, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 577059264615457737, guid: 5bf99ec17cf2af14a82a0f130be27d55, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 577059264615457741, guid: 5bf99ec17cf2af14a82a0f130be27d55, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 577059264615488099, guid: 5bf99ec17cf2af14a82a0f130be27d55, type: 3}
       propertyPath: playOnAwake
       value: 1

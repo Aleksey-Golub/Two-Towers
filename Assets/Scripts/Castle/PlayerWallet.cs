@@ -3,17 +3,24 @@ using UnityEngine;
 
 public class PlayerWallet : MonoBehaviour
 {
+    private MoneyDispenser _moneyDispenser;
+
     public int Money { get; private set; }
     public event Action<int> MoneyChanged;
 
-    private void OnEnable()
+    private void Awake()
     {
-        MoneyDispenser.Instance.MoneyDispensed += AddMoney;
+        _moneyDispenser = FindObjectOfType<MoneyDispenser>();
     }
 
+    private void OnEnable()
+    {
+        _moneyDispenser.MoneyDispensed += AddMoney;
+    }
+    
     private void OnDisable()
     {
-        MoneyDispenser.Instance.MoneyDispensed -= AddMoney;
+        _moneyDispenser.MoneyDispensed -= AddMoney;
     }
 
     public void AddMoney(int addingMoney)

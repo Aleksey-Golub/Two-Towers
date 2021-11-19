@@ -7,8 +7,11 @@ public class Castle : MonoBehaviour, IDamageAble
     [SerializeField] private int _maxHealth = 250;
     [SerializeField] private int _currentHealth;
     [SerializeField] private ParticleSystem _hit_effect;
+
+    [Header("References")]
     [SerializeField] private UnitSpawner _spawner;
     [SerializeField] private PlayerWallet _wallet;
+    [SerializeField] private CastleViewer _viewer;
 
     public PlayerWallet Wallet => _wallet;
     public UnitSpawner Spawner => _spawner;
@@ -42,7 +45,9 @@ public class Castle : MonoBehaviour, IDamageAble
     private void Die()
     {
         GameOver?.Invoke(_spawner.Enemy_castle);
-        this.enabled = false;
+        enabled = false;
         _spawner.enabled = false;
+
+        _viewer.Die();
     }
 }

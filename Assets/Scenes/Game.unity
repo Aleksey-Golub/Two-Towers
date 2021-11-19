@@ -388,7 +388,6 @@ GameObject:
   m_Component:
   - component: {fileID: 208015055}
   - component: {fileID: 208015054}
-  - component: {fileID: 208015053}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -396,20 +395,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &208015053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208015052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 866a1df70745cca4e893103f118000ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _cashDelay: 1
-  _cashAmount: 1
 --- !u!114 &208015054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -422,7 +407,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24c95b9fddeb0fc45b1b501f86e062a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameOverPanel: {fileID: 886467794}
 --- !u!4 &208015055
 Transform:
   m_ObjectHideFlags: 0
@@ -1047,6 +1031,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1062,6 +1047,20 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 866a1df70745cca4e893103f118000ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cashDelay: 1
+  _cashAmount: 1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1131,6 +1130,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7ae13fce37a43a438942799f50dd036, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _speed: 10
+  _treshold: 30
+  _maxX: 16.5
 --- !u!1 &552138647
 GameObject:
   m_ObjectHideFlags: 0
@@ -1797,11 +1799,23 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 743678563}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 886467794}
+        m_TargetAssemblyTypeName: GameOverPanel, Assembly-CSharp
+        m_MethodName: BackToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &743678563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2124,7 +2138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &886467791
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2196,8 +2210,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _text: {fileID: 1325229533}
-  _restartBtn: {fileID: 1947600933}
-  _backToMainMenu: {fileID: 743678562}
 --- !u!1 &910997730
 GameObject:
   m_ObjectHideFlags: 0
@@ -4928,11 +4940,23 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1947600934}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 886467794}
+        m_TargetAssemblyTypeName: BaseStartQuitGamePanel, Assembly-CSharp
+        m_MethodName: StartSingleGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1947600934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5305,6 +5329,10 @@ PrefabInstance:
       propertyPath: _team_index
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7988246941731676662, guid: 68f4a62731644a046976301982ce38a9, type: 3}
+      propertyPath: _preset
+      value: 
+      objectReference: {fileID: 11400000, guid: 33e2b076d0cc6654faea2e4dea224369, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68f4a62731644a046976301982ce38a9, type: 3}
 --- !u!114 &2102207304 stripped
