@@ -15,8 +15,7 @@ public class SimpleAI : MonoBehaviour
         if (Time.frameCount % 5 != 0)
             return;
 
-        //TryBuyRandonUnit();
-        _spawner.TryBuyUnit(2);
+        TryBuyRandonUnit();
     }
 
     private void OnValidate()
