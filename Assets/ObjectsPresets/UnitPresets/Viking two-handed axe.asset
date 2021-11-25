@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Viking two-handed axe
   m_EditorClassIdentifier: 
   _prefab: {fileID: 3396109723663909270, guid: e3e6230130d17dd45a10111bd6a5216c, type: 3}
-  _sprite: {fileID: 2176171000755947156, guid: 60b653417c88d984eb899d035b59cbd0, type: 3}
+  _spriteUIBtn: {fileID: 2176171000755947156, guid: 60b653417c88d984eb899d035b59cbd0, type: 3}

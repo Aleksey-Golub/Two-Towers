@@ -94,6 +94,7 @@ MonoBehaviour:
   _team_index: 0
   _spawn_point: {fileID: 976150446289837361}
   _unitSpawnDelay: 5
+  _checkBlockRange: 1.1
   _ballistaPrefab: {fileID: 6603201313508590883, guid: 5569e4a00fba92148868f33a35d68bb0, type: 3}
   _castleWeaponRaycastPoint: {fileID: 8822984705589222908}
   _ballistaSpawnPoint: {fileID: 793384000203618994}
@@ -110,7 +111,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnPoint
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -150,10 +151,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1034380646443844093}
   - component: {fileID: 1350823466537636158}
+  - component: {fileID: 6109260710537473173}
   m_Layer: 0
   m_Name: ProjectileTargetPoint
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -184,6 +186,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d58716a5d8fba4459d58ebbb86f43fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _targetPoint: {fileID: 2273301412687159089}
+--- !u!61 &6109260710537473173
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5491593004698552915}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &6551418011183359221
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,7 +256,7 @@ GameObject:
   m_Layer: 0
   m_Name: TargetPoint
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -239,7 +268,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6988431546922368052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.64, y: -4, z: 0}
+  m_LocalPosition: {x: 4.14, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1034380646443844093}

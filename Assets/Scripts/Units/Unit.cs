@@ -45,7 +45,7 @@ public class Unit : BaseUnit, IDamageAble
         GradeChanged?.Invoke(_grade);
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         _attackTimer += Time.deltaTime;
 
@@ -80,7 +80,7 @@ public class Unit : BaseUnit, IDamageAble
         }
     }
 
-    protected virtual void FixedUpdate()
+    private void FixedUpdate()
     {
         if (_currentState == UnitState.walk)
             Move();
@@ -91,7 +91,11 @@ public class Unit : BaseUnit, IDamageAble
     public override void DamageTarget()
     {
         _attackTimer = 0;
-        _target.GetComponent<IDamageAble>().TakeDamage(_damage);
+        
+        if (Vector2.Distance(transform.position, _target.position) <= _attackRange)
+        {
+            _target.GetComponent<IDamageAble>().TakeDamage(_damage);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -121,7 +125,7 @@ public class Unit : BaseUnit, IDamageAble
 
     private bool IsPossibleToMergeWith(Unit otherUnit)
     {
-        return otherUnit._type == _type && otherUnit._grade == _grade && _grade < 4;
+        return _grade < 3 && otherUnit._type == _type && otherUnit._grade == _grade;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -131,7 +135,7 @@ public class Unit : BaseUnit, IDamageAble
             
         if (unit._team != _team)
         {
-            _target = _enemy_castle.TargetPoint.transform.transform;
+            _target = _enemy_castle.TargetPoint.transform;
             _is_blocked = false;
         }
         else
@@ -148,7 +152,6 @@ public class Unit : BaseUnit, IDamageAble
 
     private void Move()
     {
-        Debug.Log("Move");
         _rb.MovePosition(_rb.position + _directionToEnemy * _movement_speed * Time.deltaTime);
     }
 
@@ -163,20 +166,23 @@ public class Unit : BaseUnit, IDamageAble
         GradeChanged?.Invoke(_grade);
 
         // логика улучшения
+        // to do // вынести в GameManager??
         _size_multiplier += 0.1f;
+        _attackRange += 0.05f;
+
         _currentHealth *= 2;
         _maxHealth *= 2;
     }
 
-    public void Init(int teamIndex, Castle enemyCastle, Vector2 moveDirection)
+    public void Init(int teamIndex, Castle enemyCastle, Vector2 moveDirection, int layer, int enemyLayerMask)
     {
         _team = teamIndex;
         _enemy_castle = enemyCastle;
         _target = _enemy_castle.TargetPoint.transform;
         _directionToEnemy = moveDirection;
 
-        gameObject.layer = _team == 0 ? 30 : 31;
-        _enemyLayerMask = 1 << (_team == 0 ? 31 : 30);
+        gameObject.layer = layer;
+        _enemyLayerMask = enemyLayerMask;
     }
 
     public IEnumerator ChangeScale(float targetSizeMultiplier, float duration)

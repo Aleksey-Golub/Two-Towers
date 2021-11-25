@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SamuraiHeavy
   m_EditorClassIdentifier: 
   _prefab: {fileID: 3117566409167695147, guid: bf42ba3d93bfba54bbf31e0ed7fd62f0, type: 3}
-  _sprite: {fileID: -8594060794301739771, guid: 60b653417c88d984eb899d035b59cbd0, type: 3}
+  _spriteUIBtn: {fileID: -8594060794301739771, guid: 60b653417c88d984eb899d035b59cbd0, type: 3}

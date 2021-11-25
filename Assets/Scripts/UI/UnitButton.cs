@@ -37,7 +37,7 @@ public class UnitButton : MonoBehaviour
 
         _progressBarImage.fillAmount = progress;
 
-        if (progress >= 1)
+        if (progress == 1)
         {
             _unitsInQueue--;
             UpdateUnitsInQueueText();

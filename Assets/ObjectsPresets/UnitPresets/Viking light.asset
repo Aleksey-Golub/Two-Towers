@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Viking light
   m_EditorClassIdentifier: 
   _prefab: {fileID: 6121039065629091936, guid: bfe08fb78cfeeba45a3befa5159343de, type: 3}
-  _sprite: {fileID: -3542430153620337073, guid: 60b653417c88d984eb899d035b59cbd0, type: 3}
+  _spriteUIBtn: {fileID: -3542430153620337073, guid: 60b653417c88d984eb899d035b59cbd0, type: 3}

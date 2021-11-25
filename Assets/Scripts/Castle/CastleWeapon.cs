@@ -51,7 +51,7 @@ public class CastleWeapon : BaseUnit, IShootAble
 
         // запуск снаряда
         var projectile = Instantiate(_projectilePrefab, _shootPoint.position, _shootPoint.rotation);
-        projectile.Init(projectileTargetPoint.position, _bulletFlightTime, _target.GetComponent<IDamageAble>(), _damage, _defaultProjectileFlightCurve, false);
+        projectile.Init(projectileTargetPoint.position, _bulletFlightTime, _damage, _defaultProjectileFlightCurve, false);
         
         _target = null;
     }

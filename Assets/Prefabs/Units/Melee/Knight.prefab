@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _attackRechargeTime: 3
-  _attackRange: 3
+  _attackRange: 3.5
   _damage: 30
   _cost: 20
   _viewer: {fileID: 5887315876934065048}
@@ -59,7 +59,7 @@ MonoBehaviour:
   _maxHealth: 100
   _armor: 0
   _movement_speed: 1.5
-  _stop_distance: 3
+  _stop_distance: 3.5
   _size_multiplier: 1
   _color: {r: 1, g: 1, b: 1, a: 1}
   _team: 0
@@ -272,6 +272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d58716a5d8fba4459d58ebbb86f43fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _targetPoint: {fileID: 0}
 --- !u!1001 &5491905579107379972
 PrefabInstance:
   m_ObjectHideFlags: 0

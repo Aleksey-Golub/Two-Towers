@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class TestA : MonoBehaviour
@@ -12,5 +13,10 @@ public class TestA : MonoBehaviour
     protected virtual void Update()
     {
         Debug.Log("Update TestA");
+    }
+
+    public static void Foo()
+    {
+        Debug.Log("Foo");
     }
 }

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Ninja
   m_EditorClassIdentifier: 
   _prefab: {fileID: 6751074845104725376, guid: 2eef4adadcaa5094d8aa0207d3874590, type: 3}
-  _sprite: {fileID: 2107277832326184692, guid: 60b653417c88d984eb899d035b59cbd0, type: 3}
+  _spriteUIBtn: {fileID: 2107277832326184692, guid: 60b653417c88d984eb899d035b59cbd0, type: 3}

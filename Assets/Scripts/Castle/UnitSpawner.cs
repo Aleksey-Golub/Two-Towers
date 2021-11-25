@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,27 +11,33 @@ public class UnitSpawner : MonoBehaviour
     [SerializeField] private int _team_index;
     [SerializeField] private Transform _spawn_point;
     [SerializeField] private float _unitSpawnDelay = 1.5f;
-
+    [SerializeField] private float _checkBlockRange = 1.1f;
+    
     [Header("Castle Weapon Spawner")]
     [SerializeField] private CastleWeapon _ballistaPrefab;
     [SerializeField] private Transform _castleWeaponRaycastPoint;
     [SerializeField] private Transform _ballistaSpawnPoint;
 
-    private Castle _enemy_castle;
     private Castle _myCastle;
     private Vector2 _normalizeDirectionToEnemySpawn;
+    private int _enemyLayerMask;
+    private int _myLayerMask;
+    private int _myLayer;
     private Queue<int> _queueOfUnitIndexes = new Queue<int>();
     private float _unitSpawnTimer;
 
     public UnitPreset[] UnitsPresets => _unitsPresets;
     public event UnityAction<int, float> SpawnProgressUpdated;
     public int TeamIndex => _team_index;
-    public Castle Enemy_castle => _enemy_castle;
+    public Castle Enemy_castle { get; private set; }
 
     private void Awake()
     {
         FindEnemyCastle();
-        _normalizeDirectionToEnemySpawn = (_enemy_castle.TargetPoint.transform.position - _spawn_point.position).normalized;
+        _normalizeDirectionToEnemySpawn = (Enemy_castle.TargetPoint.transform.position - _spawn_point.position).normalized;
+        _myLayer = _team_index == 0 ? 30 : 31;
+        _myLayerMask = 1 << (_team_index == 0 ? 30 : 31);
+        _enemyLayerMask = 1 << (_team_index == 0 ? 31 : 30);
     }
 
     private void Start()
@@ -52,13 +59,23 @@ public class UnitSpawner : MonoBehaviour
             _unitSpawnTimer += Time.deltaTime;
 
             float nomalizeTime = _unitSpawnTimer / _unitSpawnDelay;
+            nomalizeTime = Mathf.Clamp(nomalizeTime, 0, 0.99f);
             SpawnProgressUpdated?.Invoke(_queueOfUnitIndexes.Peek(), nomalizeTime);
         }
 
-        if (_unitSpawnTimer >= _unitSpawnDelay)
+        if (IsPossibleToSpawnUnit())
         {
+            SpawnProgressUpdated?.Invoke(_queueOfUnitIndexes.Peek(), 1);
             SpawnUnit(_queueOfUnitIndexes.Dequeue());
-            _unitSpawnTimer -= _unitSpawnDelay;
+            _unitSpawnTimer = 0;
+        }
+    }
+
+    private void OnValidate()
+    {
+        if (TryGetComponent(out SimpleAI aI))
+        {
+            aI.ValidateMaxUnitIndex();
         }
     }
 
@@ -72,6 +89,23 @@ public class UnitSpawner : MonoBehaviour
             _queueOfUnitIndexes.Enqueue(unitIndex);
             return true;
         }
+        return false;
+    }
+
+    private bool IsPossibleToSpawnUnit()
+    {
+        return _unitSpawnTimer >= _unitSpawnDelay && !IsBlock();
+    }
+
+    private bool IsBlock()
+    {
+        var hit = Physics2D.Raycast(_spawn_point.position, _normalizeDirectionToEnemySpawn, _checkBlockRange, _myLayerMask);
+        
+        if (hit.collider != null)
+        {
+            return true;
+        }
+
         return false;
     }
 
@@ -96,7 +130,7 @@ public class UnitSpawner : MonoBehaviour
         var unit = _unitsPresets[unitIndex].Prefab;
 
         var go = Instantiate(unit, _spawn_point.position, _spawn_point.rotation) as Unit;
-        go.Init(_team_index, _enemy_castle, _normalizeDirectionToEnemySpawn);
+        go.Init(_team_index, Enemy_castle, _normalizeDirectionToEnemySpawn, _myLayer, _enemyLayerMask);
     }
 
     private void FindEnemyCastle()
@@ -104,7 +138,7 @@ public class UnitSpawner : MonoBehaviour
         foreach (var p in FindObjectsOfType<Castle>())
         {
             if (p != GetComponent<Castle>())
-                _enemy_castle = p;
+                Enemy_castle = p;
         }
     }
 }

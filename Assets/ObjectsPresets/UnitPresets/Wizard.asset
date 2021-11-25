@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Wizard
   m_EditorClassIdentifier: 
   _prefab: {fileID: 480958124374365725, guid: 1343f9202768ebf42a24a11cd2b558c6, type: 3}
-  _sprite: {fileID: -470944434579810778, guid: 60b653417c88d984eb899d035b59cbd0, type: 3}
+  _spriteUIBtn: {fileID: -470944434579810778, guid: 60b653417c88d984eb899d035b59cbd0, type: 3}

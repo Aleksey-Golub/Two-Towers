@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Viking shield
   m_EditorClassIdentifier: 
   _prefab: {fileID: 3156505643090082903, guid: dc35829217340704f9a5b4690bf54bee, type: 3}
-  _sprite: {fileID: -8041149534224086695, guid: 60b653417c88d984eb899d035b59cbd0, type: 3}
+  _spriteUIBtn: {fileID: -8041149534224086695, guid: 60b653417c88d984eb899d035b59cbd0, type: 3}

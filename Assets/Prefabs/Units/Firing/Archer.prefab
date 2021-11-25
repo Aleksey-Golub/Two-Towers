@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _attackRechargeTime: 3
-  _attackRange: 5
+  _attackRange: 5.5
   _damage: 30
   _cost: 25
   _viewer: {fileID: 1228215933904796453}
@@ -175,6 +175,7 @@ MonoBehaviour:
   _shoot_point: {fileID: 8207355661488027993}
   _bullet_flight_time: 0.25
   _projectile_prefab: {fileID: 3890435558971891748, guid: 36fd5936415cbca40ad0403f85f8e628, type: 3}
+  _parabolicTrajectory: 1
 --- !u!61 &-6025504282099246112
 BoxCollider2D:
   m_ObjectHideFlags: 0

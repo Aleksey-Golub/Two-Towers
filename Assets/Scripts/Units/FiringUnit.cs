@@ -14,19 +14,19 @@ public class FiringUnit : Unit, IShootAble
     public float BulletFlightTime => _bullet_flight_time;
     public Projectile ProjectilePrefab => _projectile_prefab;
 
-    protected override void FixedUpdate()
+    protected override void Update()
     {
-        base.FixedUpdate();
         CheckRangedTarget();
+        base.Update();
     }
     
     public void CheckRangedTarget()
     {
-        var _hit = Physics2D.Raycast(transform.position, _directionToEnemy, _attackRange, _enemyLayerMask);
+        var hit = Physics2D.Raycast(transform.position, _directionToEnemy, _attackRange, _enemyLayerMask);
 
-        if (_hit.collider != null)
+        if (hit.collider != null)
         {
-            _target = _hit.collider.transform;
+            _target = hit.collider.transform;
         }
         else
             _target = _enemy_castle.TargetPoint.transform;
@@ -36,8 +36,11 @@ public class FiringUnit : Unit, IShootAble
     {
         _attackTimer = 0;
 
-        // запуск снаряда
-        var projectile = Instantiate(_projectile_prefab, _shoot_point.position, _shoot_point.rotation);
-        projectile.Init(_target.GetComponentInChildren<ProjectileTargetPoint>().transform.position, _bullet_flight_time, _target.GetComponent<IDamageAble>(), _damage, _default_bullet_flight_curve, _parabolicTrajectory);
+        if (Vector2.Distance(transform.position, _target.position) <= _attackRange)
+        {
+            // запуск снаряда
+            var projectile = Instantiate(_projectile_prefab, _shoot_point.position, _shoot_point.rotation);
+            projectile.Init(_target.GetComponentInChildren<ProjectileTargetPoint>().transform.position, _bullet_flight_time, _damage, _default_bullet_flight_curve, _parabolicTrajectory);
+        }
     }
 }

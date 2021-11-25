@@ -3,8 +3,13 @@ using UnityEngine;
  public abstract class BaseUnit : MonoBehaviour
 {
     [SerializeField] protected float _attackRechargeTime = 3;
-    [SerializeField] protected float _attackRange = 2.5f; // 2.5 для мили -  1+1+0,2+0,2 и 0,1 запас
     [SerializeField] protected int _damage = 30;
+    [SerializeField] protected float _attackRange = 3.5f; // требует возможной коррекции при увеличении коллайдеров юнитов
+    /*          2.4	2.2	2.0     матрица рассчета необходимой _attackRange
+        	1.2	3.6	3.4	3.2
+			1.1	3.5	3.3	3.1
+			1.0	3.4	3.2	3.0
+    */
 
     protected Transform _target;
     protected float _attackTimer;
